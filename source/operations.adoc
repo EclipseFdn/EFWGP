@@ -1,6 +1,6 @@
 = Eclipse Foundation Working Group Operations
 
-Version 1.0 (draft) 
+Version 1.0
 
 This document describes the lifecycle and operation of Eclipse Foundation Working Groups. In particular, this document describes how the Eclipse Foundation implements the https://www.eclipse.org/org/workinggroups/process.php[Eclipse Foundation Working Group Process]. 
 
@@ -15,6 +15,7 @@ The following documents define the governance of the Eclipse Foundation in gener
 * https://www.eclipse.org/projects/efsp/[Eclipse Foundation Specification Process]
 * https://www.eclipse.org/legal/efsl.php[Eclipse Foundation Specification License]
 * https://www.eclipse.org/legal/tck.php[Eclipse Foundation Technology Compatibility Kit License]
+
 In the event of any conflict between the terms set forth in this operations guide and the terms of the documents listed above, the terms of those documents shall take precedence.
 
 == Roles
