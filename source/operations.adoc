@@ -32,7 +32,8 @@ The Working Group Sponsor (“Sponsor”) is a representative from the Eclipse F
 
 Directors, executives, and program managers engaged in the development of Eclipse Foundation working groups.
 
-=== Program Manager
+[[program-manager]]
+=== Program or Community Manager
 
 The Program Manager is an Eclipse Foundation staff member who collaborates with the Participant working group members to articulate the working group’s vision, technical strategy, marketing strategy, and objectives. The Program Manager is also responsible to evangelize the working group’s vision and projects to the relevant industry segments, and to assist in working group recruitment.
 
