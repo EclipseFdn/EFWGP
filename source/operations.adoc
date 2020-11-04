@@ -75,7 +75,7 @@ Every committee must have a chairperson (or “chair”), and a secretary. These
 
 The chair is responsible for making sure that each meeting is planned effectively, conducted according to the rules outlined in the working group charter, and that matters are dealt with in an orderly, efficient manner. Individual committees nominate and elect (by simple majority) their committee chair, who must then be approved and appointed by the EMO(ED). 
 
-The initial (interim) chair for each committee is appointed by the EMO(ED) or their designate. At the earliest opportunity, each committee must nominate and elect a new chair. 
+The initial (interim) chair for each committee is appointed by the EMO(ED) or their designate. At the earliest opportunity, each committee must nominate and elect a new chair. Unless specified otherwise in the charter, it is expected that a committee will hold elections for the role of chair on an annual basis.  A person may serve multiple terms as a chair.
 
 All working groups must adhere to the Eclipse Antitrust Policy with respect to formal minutes and agendas of committee meetings. As a result, every committee must nominate and elect a secretary. The secretary is the person who keeps and disseminates formal records of the working group's process and decisions (i.e., the minutes of all formal meetings). Individual committees nominate and elect (by simple majority) their committee secretary (no further approval is required). 
 
