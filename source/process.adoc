@@ -1,143 +1,281 @@
+////
+ * Copyright (C) 2021 Eclipse Foundation, Inc. and others. 
+ * 
+ * This program and the accompanying materials are made available under the
+ * terms of the Eclipse Public License v. 2.0 which is available at
+ * http://www.eclipse.org/legal/epl-2.0.
+ * 
+ * SPDX-FileType: SOURCE
+ *
+ * SPDX-License-Identifier: EPL-2.0
+////
+
+:bylawsUrl: https://www.eclipse.org/org/documents/eclipse_foundation-bylaws.pdf
+:membershipAgreementUrl: https://www.eclipse.org/org/documents/eclipse-foundation-membership-agreement.pdf
+:ipPolicyUrl: http://eclipse.org/org/documents/Eclipse_IP_Policy.pdf
+:antitrustUrl: https://www.eclipse.org/org/documents/Eclipse_Antitrust_Policy.pdf
+:privacyPolicyUrl: https://www.eclipse.org/legal/privacy.php
+:codeOfConductUrl: https://www.eclipse.org/org/documents/Community_Code_of_Conduct.php
+:communicationPolicyUrl: https://www.eclipse.org/org/documents/communication-channel-guidelines/
+:edpUrl: https://www.eclipse.org/projects/dev_process/development_process.php
+:efspUrl: https://www.eclipse.org/projects/efsp/
+:efslUrl: https://www.eclipse.org/legal/efsl.php
+:eftcklUrl: https://www.eclipse.org/legal/tck.php
+
+:operationsUrl: link:operations.php
+
 [[wg]]
 = Eclipse Foundation Working Group Process
 
-Version 2.0
+Version 2.1
 
-[[wg-purpose]]
-== Purpose and Scope
+toc::[]
 
-This document describes the process for creating and managing Eclipse Foundation Working Groups ("Working Groups”). In particular, it describes how the Eclipse Foundation membership ("Members") lead, influence, and collaborate within Working Groups.
+This document describes the process for creating and managing _Eclipse Foundation Working Groups_ ("Working Groups”). In particular, it describes how the Eclipse Foundation membership ("Members") lead, influence, and collaborate within Working Groups.
 
-Working Groups are established to facilitate the collaboration between Eclipse Members, and to drive shared innovation through the related Eclipse projects. The collaboration should be intended to focus, promote and augment Eclipse technologies to meet the needs of specific industries. The collaboration can take the form of the development of Materials for use by a specific community and/or joint marketing programs to promote Eclipse projects in a certain industry. Participation in a Working Group is open only to Eclipse Members.
+Working Groups are established to facilitate the collaboration between participating Eclipse Members, and to drive shared innovation through the related Eclipse projects. The collaboration should be intended to focus, promote and augment Eclipse technologies to meet the needs of specific industries. The collaboration can take the form of the development of Materials for use by a specific community and/or joint marketing programs to promote Eclipse projects in a certain industry. Participation in a Working Group is open only to Eclipse Members.
 
-All participants in Working Groups must respect the agreements, policies and procedures of the Eclipse Foundation. In particular, and without limiting the foregoing, at all times, participants in all Eclipse Working Groups must conform to the Eclipse Foundation's Intellectual Property and Antitrust Policies.
+All participants in Working Groups must respect the agreements, policies and procedures of the Eclipse Foundation. In particular, and without limiting the foregoing, at all times, participants in all Eclipse Working Groups must conform to the Eclipse Foundation’s Intellectual Property and Antitrust Policies.
 
-All Working Groups must operate in an open, transparent, and vendor neutral manner.
+[[wg-related-documents]]
+== Related documents
+
+The following documents define the governance of the Eclipse Foundation in general, and Working Groups, open source projects, and open source specifications in particular.
+
+* {bylawsUrl}[Eclipse Foundation Bylaws]
+* {membershipAgreementUrl}[Eclipse Foundation Membership Agreement]
+* {ipPolicyUrl}[Eclipse Foundation Intellectual Property Policy]
+* {antitrustUrl}[Eclipse Foundation Antitrust Policy]
+* {privacyPolicyUrl}[Eclipse Foundation Privacy Policy]
+* {codeOfConductUrl}[Eclipse Foundation Code of Conduct]
+* {communicationPolicyUrl}[Eclipse Foundation Communication Channel Guidelines]
+* {edpUrl}[Eclipse Foundation Development Process]
+* {efspUrl}[Eclipse Foundation Specification Process]
+* {efslUrl}[Eclipse Foundation Specification License]
+* {eftcklUrl}[Eclipse Foundation Technology Compatibility Kit License]
+
+This Working Group Process inherits its governance principles from the Eclipse Foundation Bylaws. Should any conflict exist between this Working Group Process and the Bylaws, the Bylaws shall prevail. Further, in any cases where this Working Group Process or a particular Working Group’s charter is silent on a particular topic, the Bylaws shall serve as guidance. In such cases, the Eclipse Foundation Sponsor (as defined below) shall clarify, and provide guidance on how best to comply.
+
+[[wg-principles]]
+== Guiding Principles
+
+All Working Groups must operate in an open and transparent manner.
+
+*Open* - Working Groups provide the same opportunity to all Members to participate in accordance with the Charter. Everyone participates with the same rules; there are no rules to exclude any potential contributors which include, of course, direct competitors in the marketplace.
+
+*Transparent* - Minutes, plans, and other artifacts are open and easily accessible to all.
+
+Working groups, like all communities associated with the Eclipse Foundation, must operate in adherence to the Foundation’s Code of Conduct.
+
+[[wg-projects]]
+=== Relationship to Projects
+
+The purpose of Working Groups is to complement the activities of Eclipse Foundation open source Projects by undertaking activities that Projects have historically found difficult to organize and/or manage. Working Groups can provide influence, guidance, and support, but do not direct the activities of Eclipse open source Projects. That is, Working Groups do not direct or manage open source Projects. 
+
+Rather, Working Groups may express non-exclusive interest in specific Eclipse open source Projects. This set of Projects of interest (or more simply, the Working Group’s Projects) is defined, either directly or indirectly in the Working Group’s charter or by resolution of its Steering Committee. Specification Projects that operate under the purview of the Working Group’s Specification Committee are automatically included in the Working Group’s project set.
+
+With the exception of Specification Projects, which operate under the purview of a Working Group’s Specification Committee, a Working Group has no direct power to affect the operation of open source Projects in which they express interest. Having said this, a Working Group exerts influence over Projects by having Working Group participants (i.e., the employees, consultants, etc. of Member organizations as well as independent Committer Members) engage in the open source process, particularly by making contributions.
+
+Working Groups typically provide input and guidance on project roadmaps and release schedules on behalf of their Projects. Working Groups typically also take on responsibility for promotion, marketing, developer advocacy, and branding strategies for their Projects.
+
+The union of the Committers from a Working Group’s Projects comprise the Working Group Committers.
+
+[[wg-specifications]]
+=== Specifications
+
+Specifications are created and maintained by Specification Projects. Each Specification Project is aligned with exactly one Working Group. Specification Projects are said to work under the purview of a particular Working Group, or—​more specifically—​the Specification Committee of a Working Group.
+
+Prior to the Working Group engaging in any specification work, the Steering Committee must vote to adopt a particular version of the EFSP or derivative thereof. The Steering Committee must further vote to adopt a default Patent License (either Compatible Patent License or Implementation Patent License) as defined by the Eclipse Foundation Intellectual Property Policy.
 
 [[wg-roles]]
-== Roles and Assets
+== Roles
 
 [[wg-member-roles]]
 === Member Roles
 
-A Lead Organization is the Eclipse Member that takes a leadership role in proposing and proving the viability of a Working Group. A Lead Organization must be an Eclipse Strategic, Enterprise, or Solution Member. There may be more than one Lead Organization engaged in the creation of a new working group.
+A _Lead Organization_ is the Eclipse Member that takes a leadership role in proposing and proving the viability of a Working Group. A Lead Organization must be an Eclipse Strategic or Contributing Member. There may be more than one Lead Organization engaged in the creation of a new Working Group.
 
-A Member Participant (“Participant”) is a Member that agrees to actively participate in the Working Group and meets the requirements for participation as defined by the Working Group Charter. Participants must be Strategic, Enterprise, or Solutions Members of the Eclipse Foundation (or Associate Members that are research institutions, academic institutions or government agencies specifically approved by the Steering Committee).
-
-A Steering Committee Participant is a Participant of the Working Group that agrees to actively participate in the Working Group Steering Committee and that satisfies the Steering Committee Participant requirements set forth in the member participation guidelines (as they are defined in the Charter).
+A Member Participant (“Participant”) is a Member that agrees to actively participate in the Working Group and meets the requirements for participation as defined by the Working Group Charter. 
 
 Additional roles may be defined by the Working Group via its Charter.
-
-[[wg-committees]]
-=== Committees
-
-The Steering Committee is responsible for defining and implementing the Working Group’s Charter and generally providing oversight of the activities of the Working Group. The Steering Committee is composed of designated representatives from the Working Group’s Steering Committee Participants, along with elected and appointed members as specified by the Charter. One or more representatives assume the role of Steering Committee Chair. The terms by which the Steering Committee is formed and maintained must be defined by the Charter.
-
-A Working Group that engages in specification work must have a Specification Committee. The Specification Committee is responsible for implementing the Eclipse Foundation Specification Process (EFSP) for all Specification Projects (as that term is defined by the EFSP). The Specification Committee Chair must be an employee of a Participant. The terms by which the Specification Committee is formed must be defined by the Working Group Charter. The Steering Committee provides oversight for the Specification Committee.
-
-A Working Group that engages in collaborative marketing efforts may designate a Marketing Committee. The Marketing Committee is responsible for working with the Eclipse Foundation to produce and maintain the budget for the Working Group’s marketing activities. The terms by which the Marketing Committee is formed must be defined by the Working Group Charter. The Steering Committee provides oversight for the Marketing Committee.
 
 [[wg-foundation-roles]]
 === Eclipse Foundation Roles
 
-The Eclipse Management Organization (“EMO”) consists of the Eclipse Foundation staff, and the Eclipse Architecture and Planning Councils as defined in the Eclipse Bylaws.
+The _Working Group Sponsor_ (“Sponsor”) is a representative from the Eclipse Foundation’s senior leadership team who ensures that this and related processes are understood and followed by all parties, and facilitates the early phases of the Working Group (e.g. host calls, carry out outreach to potential interested Members, etc.). The Sponsor acts as the primary liaison between the Working Group and the Eclipse Foundation.
 
-The Working Group Sponsor (“Sponsor”) is a representative from the Eclipse Foundation’s senior leadership team who ensures that this and related processes are understood and followed by all parties, and facilitates the early phases of the Working Group (e.g. host calls). The Sponsor acts as the primary liaison between the Working Group and the EMO.
+The _Program Manager_ (or, alternatively, a Community Manager) is an Eclipse Foundation staff member who collaborates with the Participant Working Group members to articulate the Working Group’s vision, technical strategy and objectives, and to assist in the execution of the Working Group’s program plan. The Program Manager is also responsible to evangelize the Working Group’s vision and projects to the relevant industry segments, and to assist in Member recruiting.
 
-The Program Manager is an Eclipse Foundation staff member who collaborates with the Participants working group members to articulate the working group’s vision, technical strategy and objectives. The Program Manager is also responsible to evangelize the working group’s vision and projects to the relevant industry segments.
+[[wg-governance]]
+== Governance
+
+Eclipse Working Groups are a lighter-weight consortium of a subset of the Members that inherit and rely upon the Eclipse Foundation’s overall governance, sufficient to enable the consortium to collaborate effectively. Working Groups do not form a formal part of the Eclipse governance structure as defined in the Bylaws.
+
+Authority and responsibility for establishing and managing Working Group budgets lies with the Eclipse Foundation Executive Director (“Executive Director”) as defined in the Bylaws. Each Working Group’s budget rolls up into the Foundation’s overall budget, which is approved on an annual basis by the Eclipse Foundation’s Board of Directors (“Board of Directors”).
+
+[[wg-charter]]
+=== Charter
+
+The _Working Group Charter_ (“Charter”) describes the vision, scope, and governance structure of the Working Group; the materials and programs to be developed by the Working Group; and the objectives, strategies, policies and plans of the Working Group.
+
+The Charter must define the member participation guidelines for Participants of the Working Group. The guidelines must be objective, fair, reasonable, and vendor-neutral, and must not be designed to impose unreasonable terms on any particular Member or group of Members.
+
+The Member participation guidelines must also define the composition, mandate, and guidelines for participation of the Working Group’s committees. In particular, the member participation guidelines must outline the terms by which a Member is eligible to participate as a Steering Committee representative (e.g., the Eclipse membership level requirements, resource commitments, etc.). The Charter may also specify the means by which other representatives are appointed or elected to the Working Group’s committees to represent the interests of aspects of the Working Group or related communities.
+
+The Charter may include a statement of resource commitments for all Participants in that Working Group and the Eclipse Foundation that will cover external resources (development, marketing programs, etc.).
+
+The Executive Director must approve the initial Charter. Thereafter, a Working Group’s charter may be modified by: 1) a super-majority (two-thirds) affirmative vote of the Steering Committee and 2) approval by the Executive Director of the Eclipse Foundation.
+
+[[wg-committees]]
+=== Committees
+
+Each Committee of a Working Group is an independent governing body which plays a specific role in fulfilling the overall vision of the Working Group and must work collaboratively with each other; however, there exists no implicit hierarchical relationship between the committees. 
+
+Working Group Committees are required to comply with the Eclipse Foundation Antitrust Policy. Examples of compliant behavior include: providing advance notice of all meetings to the members, publishing meeting agendas beforehand, publishing accurate minutes afterwards, and ensuring that meetings are open to all eligible members. 
+
+[[wg-committees-steering]]
+==== Steering Committee
+
+The _Steering Committee_ is responsible for defining and implementing the Working Group’s Charter and generally providing leadership and oversight of the activities of the Working Group. The Steering Committee is composed of designated representatives from the Working Group’s Strategic Members, along with elected and appointed members as specified by the Charter. The Steering Committee shall elect one of its members to the role of Steering Committee Chair. The terms by which the Steering Committee is formed and maintained must be defined by the Charter.
+
+In addition to its role of providing leadership and oversight, the Steering Committee is also responsible for approving an annual budget produced by the Eclipse Foundation on behalf of the Working Group. The Steering Committee must do so in adherence to the Eclipse Foundation’s budget process, and all budgets must be approved by the Executive Director. For clarity, Steering Committee participants do not bear any fiduciary responsibilities to the Eclipse Foundation or the Working Group members.
+
+Each Working Group may include in its Charter the right, but not an obligation, for appointed participants to the Steering Committee to designate an alternate Steering Committee participant (an “Alternate”).  Alternates may be added to the Steering Committee’s mailing list, and may participate in Steering Committee meetings should their Steering Committee participant be unavailable to attend, and to assign the Alternate as a proxy for voting purposes.   
+
+[[wg-committees-specification]]
+==== Specification Committee
+
+A Working Group that engages in specification work must, via its Charter, define a _Specification Committee_. 
+
+The Specification Committee is responsible for implementing the Eclipse Foundation Specification Process (EFSP) for all Specification Projects (as that term is defined by the EFSP). The terms by which the Specification Committee is formed must be defined by the Working Group Charter. 
+
+When a Specification Committee is not formed, the responsibilities of the Specification Committee are delegated to the Steering Committee.
+
+[[wg-committees-marketing]]
+==== Marketing Committee
+
+A Working Group that engages in extensive collaborative marketing efforts should, via its Charter, designate a _Marketing Committee_. If designated, the Marketing Committee is responsible for working with the Eclipse Foundation to plan and assist in executing the Working Group’s marketing activities within the allocated Working Group budget. The terms by which the Marketing Committee is formed must be defined by the Working Group Charter.  
+
+If a Working Group has no Marketing Committee, then marketing responsibilities are then delegated to the Steering Committee. 
+
+[[wg-committees-other]]
+==== Other Bodies
+
+A Working Group may, via its Charter or by Steering Committee resolution, define other committees, ad hoc or sub-committees, or special interest groups. In each case, the rules for participation in each of those additional bodies must be clearly defined.
 
 [[wg-agreements]]
 === Agreements
 
-A Working Group Initiation Agreement is a bilateral agreement between the Eclipse Foundation and the Lead Organization(s). This agreement details the goals, scope, measures of success, responsibilities, and milestones to create a Working Group. At a minimum, it specifically describes work related to trademarks, logos, web properties, target member participation (i.e., pipeline), success criteria, etc.
+A _Working Group Initiation Agreement_ is a bilateral agreement between the Eclipse Foundation and the Lead Organization(s). This agreement details the goals, scope, measures of success, responsibilities, and milestones to create a Working Group. At a minimum, it specifically describes work related to trademarks, logos, web properties, target member participation (i.e., pipeline), recruitment, success criteria, etc. It is expected that the Lead Organization will fund all of the work required by the Eclipse Foundation in relation to initiating the Working Group until the Working Group is fully funded through Working Group Participation Fees.  The activities, deliverables, and budget for the Initiation Agreement will be negotiated by the Lead Organization(s) and the Eclipse Foundation.
 
-A Working Group Participation Agreement (“Participation Agreement”) is a bilateral agreement between the Eclipse Foundation and each Participant in the Working Group that defines the responsibilities of each party in the Working Group. The Participation Agreement defines, among other terms, a commitment by each Participant to adhere to the Working Group Charter.
+A _Working Group Participation Agreement_ (“Participation Agreement”) is a bilateral agreement between the Eclipse Foundation and each Participant in the Working Group that defines the responsibilities of each party in the Working Group. The Participation Agreement defines, among other terms, a commitment by each Participant to adhere to the Working Group Charter as well as a commitment by each Participant to pay the Participation Fees defined by the Working Group.
 
-[[wg-assets]]
-=== Working Group Assets
+[[wg-materials]]
+== Materials
 
-The Recruiting Materials are used by Lead Organization(s), EMO, and committed Participants of the Working Group to recruit other organizations to the Working Group, and to encourage them to become Participants. The Recruiting Materials must capture the purpose and scope, objectives, strategies, priorities, and high-level plans of the Working Group, and also clearly state how organizations can participate.
+_Working Group Materials_ ("Materials") are assets that are created by a Working Group. An asset could be a technology roadmap, test suite, tutorial, collateral, documentation, specification, package of Eclipse technology, testbeds, etc. Unless otherwise approved by the Eclipse Foundation, any third party content used by a Working Group in the creation of Materials must be contributed to the Eclipse Foundation under the Eclipse.org terms of use.
 
-The Working Group Charter (“Charter”) describes the purpose, scope, and governance structure of the Working Group; the Materials and programs to be developed by the Working Group; the proposed Schedule for Working Group activities; and the objectives, strategies, policies and plans of the Working Group.
+[[wg-recruiting]]
+=== Recruiting Materials
 
-The Charter shall provide that:
+The _Recruiting Materials_ are used by Lead Organization(s), Eclipse Foundation, and committed Participants of the Working Group to recruit other organizations to the Working Group, and to encourage them to become Participants. The Recruiting Materials must capture the vision and scope, objectives, strategies, priorities, and high-level plans of the Working Group, and also clearly state how organizations can participate.
 
-* The Working Group is open to participation by any Member who meets the criteria as stipulated in the Charter;
-* All Working Group meetings are announced and open to all Working Group Participants; and
-* All Working Group meetings are recorded via minutes and posted to communication channel that is available to all Participants. Abridged minutes must be posted publicly and must include the names of all Participant representatives, and record any decisions made by the Working Group.
+Note that Member recruitment must remain an active goal and responsibility of a Working Group throughout its lifecycle.  
 
-Unless stipulated in the Charter, all Materials, including drafts, must be made available in a forum accessible by all Participants.
+[[wg-program-plan]]
+=== Program Plan
 
-The Charter must define the member participation guidelines for Participants of the Working Group. The guidelines must be objective, fair, reasonable and vendor-neutral and must not be designed to exclude or impose unreasonable terms on any particular Member or group of Members.
+The Steering Committee is responsible for establishing an annual Program Plan. 
 
-The member participation guidelines must also define the composition, mandate, and guidelines for participation of the Steering Committee Participants and their representatives. In particular, the member participation guidelines must outline the terms by which a Member is eligible to participate as a Steering Committee Participant (e.g.,the Eclipse membership level requirements, resource commitments, etc.).
+The _Program Plan_ defines the strategy for implementing the Working Group’s vision. The Program Plan iterates the annual key programs and initiatives under consideration by the Working Group in order to advance the vision. The Program Plan is based on inputs from the Working Group members, their Committees, and the Eclipse Foundation. This input should be sought in advance of defining the Program Plan.
 
-The Charter may also specify the means by which other Steering Committee members are appointed or elected to the Steering Committee to represent the interests of aspects of the Working Group or related communities.
+At a minimum, the Program Plan must include the strategic goals, set of initiatives, associated roadmap, and timeline.
 
-For a Working Group engaged in specification development, the Charter must define the terms for representation in the Specification Committee. The Charter may define parameters for specification work engaged in by the Working Group, or may choose to delegate that responsibility to the Specification Committee.
+The Program Plan must be approved by the Executive Director.
 
-The Charter may define other committees, along with rules for participation in those committees.
+The Steering Committee shall share the Program Plan with Working Group Participants. The Steering Committee drives and monitors the progress of the implementation of the Program Plan. 
 
-The Charter may include a statement of resource commitments for all Participants in that Working Group and the Eclipse Foundation that will cover external resources (development, marketing programs, etc.).
+[[wg-marketing-plan]]
+=== Marketing Plan
 
-Working Groups may decide to charge annual fees (“Working Group Fees”). If so, those fees must be defined in the Charter, must clearly describe the fee structure for each level of Participant, and must clearly indicate the Working Group Fees are exclusive of and in addition to the fees for membership in the Eclipse Foundation. The Charter must indicate that the Steering Committee is responsible for establishing and modifying the Working Group Fees.
+The _Marketing Plan_ is a recommended, but optional, document that identifies the marketing goals, strategies, tactics, roles and responsibilities, and timelines in direct support and alignment with the Program Plan. Since ecosystem building, community outreach, and increasing market visibility are typically core activities for Working Groups, all Working Groups are encouraged to have a Marketing Plan; any Working Group that has a Marketing Committee must produce an updated Marketing Plan at least annually.  
 
-The Charter must indicate the Steering Committee is also responsible for establishing an annual budget for the Working Group. The Steering Committee must do so in adherence to EMO budget process, and all budgets must be approved by the Eclipse Foundation Executive Director (“Executive Director”).
-
-The Marketing Plan is a document that identifies the marketing goals, strategies, tactics, roles and responsibilities, and timelines for driving awareness of and participation in the Working Group. All working groups are encouraged to have a Marketing Plan; any working group that has a Marketing Committee must produce an updated Marketing Plan at least annually.  
-
-Working Group Materials ("Materials") are assets that are created by a Working Group. An asset could be a technology roadmap, test suite, tutorial, collateral, documentation, specification, package of Eclipse technology, testbeds, etc. Unless otherwise approved by the EMO, any third party content used by a Working Group in the creation of Materials must be contributed to the Eclipse Foundation under the Eclipse.org terms of use.
+The Marketing Plan is developed in conjunction with (and dependent upon) the Program Plan and budget.
 
 [[wg-services]]
 === Services and Shared Resources
 
 Working Groups are expected to share resources, communications channels, etc. These services and shared resources must provide for a level playing field to ensure all Participants have access to resources, and that the resources are maintained to the benefit of the Working Group and the related Eclipse Projects under its purview. All policies established regarding these shared resources must adhere to the principles of freedom of access for all Participants, and a freedom of action for those Participants.
 
-Primary communication channels (e.g mailing lists) must be maintained by the Eclipse Webmaster. Every Working Group must have a publicly available communication channel with archive. Committees may have dedicated communication channels.
+Primary communication channels (e.g mailing lists) must be maintained by the Eclipse Webmaster. Every Working Group must have a publicly available communication channel with a publicly accessible archive. Committees may have dedicated communication channels.
 
-The choice of collaborative tools to be used shall be made by the Steering Committee, and must be agreed to by EMO.
+The choice of collaborative tools to be used shall be made by the Steering Committee, and must be agreed to by Eclipse Foundation.
 
 The Working Group must have a documented strategy for administering externally hosted resources in a vendor neutral and resilient manner. The Eclipse Webmaster only provides support for those services provided by the Eclipse Foundation, but must (when possible) be included as an inactive administrator on externally hosted services to ensure continuity.
 
 Care must be taken by designated administrators to ensure that only bonafide representatives of the Participants are granted privileged access to Working Group services and shared resources.
 
-The Eclipse Foundation provides no standard or default services for Working Groups. The specific nature of the services (including websites) that will be made available for a Working Group by the Eclipse Foundation must be agreed upon by the Eclipse Foundation and the Working Group Steering Committee or the Lead Organization.
+All services and shared resources administered by the Working Group must adhere to the Foundation’s Privacy Policy, Terms of Use, Code of Conduct, and other related policies.  
 
-[[wg-engagement]]
-=== Engagement with Eclipse Foundation Staff and Resources
+[[wg-finance]]
+== Finance
 
-One of the benefits of creating a Working Group is to benefit from the engagement of the Eclipse Foundation professional staff, and to leverage the services offered by the Eclipse Foundation. As part of the operation of the working group, and in particular in the establishment of objectives, the execution of work items, and the Working Group’s budget, the Working Group is expected to engage directly with the Eclipse Foundation in execution of the Working Group.
+Each Working Group establishes annual participation fees to be collected by the Eclipse Foundation that are managed by the Eclipse Foundation to support the operation of the Working Group. The fees collected by a Working Group must cover the full direct and indirect costs associated with the operation and execution of the Working Group by the Eclipse Foundation. 
 
-It is recommended that every Working Group allocate budget for a Program Manager, who works directly with the Steering Committee and the Working Group at large. The Program Manager serves as liaison between the various parties.
+The fees may be applied across a variety of initiatives and activities, complementary to the initiatives and activities performed by the Eclipse Foundation generally.
 
-As part of the process for establishing its budget, the Steering Committee is expected to work closely with the Eclipse Foundation to provide adequate funding to achieve the stated objectives and related work items. This funding will, at a minimum, include funding to support the Eclipse Foundation staff involved. In turn, the Eclipse Foundation will, to the extent feasible within the budget constraints established, fulfill the work items as agreed to with the Working Group, and will in general engage in good faith to the betterment of the Working Group and its Participants.
+Working Group annual participation fees must be captured in the Charter.
+
+The formal governance obligations associated with Working Groups lie with the Eclipse Board of Directors, the Eclipse Foundation’s Executive Director, and Eclipse Foundation staff as defined within the Bylaws. Authority and responsibility for establishing and managing Working Group budgets lies with the Executive Director as defined in the Bylaws. Each Working Group’s budget rolls up into the Eclipse Foundation’s overall budget, which is approved on an annual basis by the Board of Directors.
+
+The Working Group budget must reflect the program plan; it is developed in conjunction with and approved by the steering committee. The budget identifies key resources and key program spend items, based on the priorities identified in the Program Plan. The Eclipse Foundation acts on the priorities identified in the Program Plan, and incurs expenditures (direct staff, shared resources, external costs, etc.) in fulfilling those priorities. In addition, each Working Group is required to cover the full costs incurred by the Eclipse Foundation on the Working Group’s behalf, foreseen (e.g., marketing expenses) or otherwise (e.g., legal fees that arise throughout the year).  
+
+The Eclipse Foundation bears all fiduciary and operational responsibilities for the Working Group budget. 
 
 [[wg-participation]]
 == Participation Structure for Working Groups
 
-A Working Group may define multiple levels of Participation. These levels can be differentiated by different Working Group Fees, responsibilities, commitment of resources, representation on committees, etc.. These levels of participation must be described in the Charter.
+A Working Group may define multiple levels of participation. These levels can be differentiated by different Working Group Fees, responsibilities, voting privileges, commitment of resources, representation on committees, etc. These levels of participation must be described in the Charter.
 
-Any Member that satisfies the member participation guidelines defined in the Charter must be permitted to be a Participant in the Working Group. Any Member wishing to join the Working Group must contact the Steering Committee to indicate their interest and describe how they fulfill the participation guidelines. The Steering Committee is responsible for maintaining and publishing the list of all Participants on an ongoing basis.
+Any Eclipse Foundation Member that satisfies the member participation guidelines defined in the Charter must be permitted to be a Participant in the Working Group and may visit the Explore Working Groups page to complete the application process, or may contact membership@eclipse.org for more information. The Steering Committee is responsible for maintaining and publishing the list of all Participants on an ongoing basis.
+Each Working Group may define its own membership levels, but generally they fall into one of the four following categories:
 
-All Participants in a Working Group can participate and have voting rights with respect to all Working Group matters, including scheduling meetings and activities, and will have equal rights of access and participation in the development of all Materials, Marketing Plans, programs, and communication channels.
+[[wg-participation-strategic]]
+=== Strategic Members
 
-Unless decided by the Working Group Steering Committee and stated in the Working Group Charter, there shall be no additional charges or fees for Eclipse Members to be a Participant in a Working Group.
+_Strategic Members_ are organizations that view the Working Group’s specifications or technologies as strategic to their organization and are investing significant resources to sustain and shape the activities of the Working Group. Strategic Members of the Working Group must be at least a Contributing Member of the Eclipse Foundation.
+
+Membership is, by default, renewed annually. A Working Group may stipulate that Strategic Members of the Working Group are required to commit to strategic membership for a period longer than one year (for example, a three (3) year period). 
+
+[[wg-participation-participant]]
+=== Participant Members
+
+_Participant Members_ are typically organizations that deliver products or services based upon related specifications or technologies, or view the Working Group’s specifications or technologies as strategic to their organization. These organizations want to participate in the development and direction of an open ecosystem related to the Working Group. Participant Members of the Working Group must be at least a Contributing Member of the Eclipse Foundation.
+
+[[wg-participation-committer]]
+=== Committer Members
+
+Committers are individuals who through a process of meritocracy defined by the Eclipse Foundation Development Process are able to contribute and commit content to the Eclipse Foundation Projects included in the project set of the Working Group. Committers may become members of the Working Group by virtue of working for a member organization, or may choose to become a _Committer Member_ of the Eclipse Foundation, along with completing the Working Group’s Participation Agreement.
+
+[[wg-participation-guest]]
+=== Guest Members
+
+Only Associate Members of the Eclipse Foundation are eligible to join as _Guest Participants Members_ of Working Groups.  Typical guests include R&D partners, universities, academic research centers, etc.  Guest members have no voting rights, must sign the Working Group participation agreement and may remain a guest member as long as they are an Associate member of the Eclipse Foundation and the Working Group is operational.  Guest members pay no additional Working Group fees to be a member of a Working Group.
 
 [[wg-lifecycle]]
 == Working Group Lifecycle
-
 Following is a description of the lifecycle of a Working Group.
 
 image:images/image1.png[image]
 
-Any Eclipse Strategic, Enterprise, or Solution Member(s) may initiate the creation of a Working Group. To begin the process, the Member may submit a request to do so to membership@eclipse.org, or otherwise engage directly with a member of the Eclipse Foundation business development team.
+Any Eclipse Strategic or ContributingMember(s) may initiate the creation of a Working Group. To begin the process, the Member may submit a request to do so to membership@eclipse.org, or otherwise engage directly with a member of the Eclipse Foundation business development team.
 
 [[wg-opportunity]]
-=== Opportunity Phase
+== Opportunity Phase
 
-All Working Groups start in the Opportunity Phase. This phase is used to validate the viability of the Working Group and identify the Lead Organization. A Working Group is not publicly exposed while in the opportunity phase. While in the Opportunity Phase, the Eclipse Foundation works with the Lead Organization to define the purpose, goals, the scope of work to be engaged in by the Working Group; execute the Working Group Initiation Agreement (“Initiation Agreement” or, effectively, a memorandum of understanding); and identify potential Participants.
+All Working Groups start in the _Opportunity Phase_. This phase is used to validate the viability of the Working Group and identify the Lead Organization. Although the Eclipse Foundation does not enter into non-disclosure or confidentiality agreements, a Working Group is not publicly exposed while in the opportunity phase. While in the Opportunity Phase, the Eclipse Foundation works with the Lead Organization to define the vision and scope of the work to be engaged in by the Working Group; execute the Working Group Initiation Agreement (“Initiation Agreement” or, effectively, a memorandum of understanding); and identify potential Participants.
 
-A key deliverable of the Opportunity Phase is a draft Working Group Charter. The draft Charter serves as a framework for participants to interact; it defines the scope, mission, and vision. The draft Charter must also specify a technical roadmap (e.g. will the Working Group engage in specification development), list target open source projects, and nature of the Working Group (vendor or user led).
+A key deliverable of the Opportunity Phase is a draft Working Group Charter. The draft Charter serves as a framework for participants to interact; it defines the vision and scope. The draft Charter must also specify a technical roadmap (e.g. will the Working Group engage in specification development), list target open source projects, and nature of the Working Group (vendor or user led).
 
 Success criteria:
 
@@ -151,33 +289,32 @@ Success criteria:
 Upon completion of these goals, the Working Group moves into the Proposal Phase.
 
 [[wg-proposal]]
-=== Proposal Phase
+== Proposal Phase
 
-The Proposal Phase starts when the draft Working Group Charter is posted to the Eclipse.org website by the EMO for public review and announced to the Eclipse Membership At-Large.
+The _Proposal Phase_ starts when the draft Working Group Charter is posted to the Eclipse.org website by the Eclipse Foundation for public review and announced to the Eclipse Membership At-Large.
 
 The draft Working Group Charter is used as the primary means of describing the Working Group to potential Participant Members and the community at large. While in the Proposal Phase, the Eclipse Foundation works with the Lead Organization to recruit a collection of initiating Members and drive the creation of the Working Group.
 
-Primary activities during this phase are to create and promote the Recruiting Materials, develop a Marketing Plan, identify and describe services and required infrastructure, complete the Working Group Charter, and actively recruit initiating Members. The Proposal Phase will last no less than fourteen (14) days.
+Primary activities during this phase are to create and promote the Recruiting Materials, identify and describe services and required infrastructure, complete the Working Group Charter, and actively recruit initiating Members. The Proposal Phase will last no less than fourteen (14) days.
 
-At the end of the Proposal Phase, subject to the initiating Participants’ compliance with the terms of this Policy, the Executive Director's approval of the initial Charter, and feedback from the community, the Executive Director will determine whether or not to create the Working Group.
+At the end of the Proposal Phase, subject to the initiating Participants’ compliance with the terms of this Policy, the Executive Director’s approval of the initial Charter, and feedback from the community, the Executive Director will determine whether or not to create the Working Group.
 
 Success criteria:
 
-* Recruiting Materials created;
-* Draft Marketing Plan completed;
+* Recruiting Materials and plan created;
 * Services and required infrastructure identified;
 * Initial Working Group Charter published;
 * Minimum of three Participants committed; and
 * Executive Director approval.
 
-Upon completion of these goals, the Working Group enters the Incubation Phase.
+Upon completion of these criteria, the Working Group enters the Incubation Phase.
 
 [[wg-incubation]]
-=== Incubation Phase
+== Incubation Phase
 
 Once the Working Group is created, a notification will be sent to the Members with the initial list of Participants and an invitation to other Members to participate. At this time, the communication infrastructure for the Working Group will be established.
 
-The Incubation Phase provides an opportunity to further evolve the Working Group Charter, recruit additional Participants, and start building and executing on the Marketing Plan.
+The _Incubation Phase_ provides an opportunity to further evolve the Working Group Charter, recruit additional Participants, and start building and executing on the Marketing Plan.
 
 If the Working Group engages in specification work, the Steering Committee must formally agree by super-majority (two-thirds) vote to adopt the EFSP. They may opt to engage the Specification Committee to parameterize or otherwise specialize the process to suit the specific needs of the Working Group.
 
@@ -186,35 +323,37 @@ Success criteria:
 * Communication infrastructure established;
 * Charter published;
 * Working Group committees (as defined by the Charter) operational;
-* (If applicable) Working Group Specification Process defined;
-* Marketing Plan and budget defined;
+* When the Working Group engages in specification development:
+* Formally adopt the Eclipse Foundation Specification Process or a derivative thereof;
+* Formally adopt the choice of Patent License for Specifications;
+* Program Plan defined;
 * Budget approved;
 * Minimum of five Participants committed; and
 * Executive Director approval.
 
-Upon completion of these goals, the Working Group enters the Operational Phase.
+Upon completion of these criteria, the Working Group enters the Operational Phase.
 
 [[wg-operational]]
-=== Operational Phase
+== Operational Phase
 
-The majority of Working Group's work is intended to be accomplished during its Operational Phase. The development of the Materials and programs for each Working Group is undertaken by its Participants during this phase. The Working Group Steering Committee shall provide regular systematic status reporting to the EMO. The Working Group Steering Committee will provide overall coordination; monitor conformity with the Charter; establish and monitor progress against milestones and schedules; provide attention to issues involving dependencies between Participants; and ensure that all plans, documents, reports, and interactions are made available to the Participants of the Working Group and (when applicable) community.
+The majority of Working Group work is intended to be accomplished during its _Operational Phase_. The development of the Materials and programs for each Working Group is undertaken by its Participants during this phase. The Working Group Steering Committee shall provide regular systematic status reporting to the Eclipse Foundation. The Working Group Steering Committee will provide overall coordination; monitor conformity with the Charter; establish and monitor progress against milestones and schedules; provide attention to issues involving dependencies between Participants; and ensure that all plans, documents, reports, and interactions are made available to the Participants of the Working Group and (when applicable) community.
+
+[TIP]
+====
+For more information on operating a Working Group, please see the {operationsUrl}[Eclipse Foundation Working Group Operations Guide].
+====
 
 [[wg-termination]]
-=== Working Group Termination
+== Working Group Termination
 
-It is expected that some Working Groups will exist for a specific period of time to accomplish a specific objective and some Working Groups will continue for an extended period of time. Regardless, at some point in time the operation of Working Groups may need to be terminated. Two events may trigger the termination of an Working Group: 1) following a super-majority (two-thirds) affirmative vote of the Steering Committee, the Steering Committee requests that the Executive Director terminate the Working Group; or 2) the Working Group is deemed inactive or non-compliant with the Working Group's Charter by the Executive Director at their sole discretion.
+It is expected that some Working Groups will exist for a specific period of time to accomplish a specific objective and some Working Groups will continue for an extended period of time. Regardless, at some point in time the operation of Working Groups may need to be terminated. Two events may trigger the termination of an Working Group: 1) following a super-majority (two-thirds) affirmative vote of the Steering Committee, the Steering Committee requests that the Executive Director terminate the Working Group; or 2) the Working Group is deemed inactive or non-compliant with the Working Group’s Charter by the Executive Director at their sole discretion.
 
-The EMO will terminate a Working Group by putting a public notice on the Working Group communication channel. All Materials created by the terminated Working Group will be archived by the EMO.
-
-[[wg-modifying-charter]]
-=== Modifying a Working Group Charter
-
-The Executive Director must approve the initial Charter. A Working Group may modify their Charter. Any modifications to a Charter must be approved by: 1) a super-majority (two-thirds) affirmative vote of the Steering Committee and 2) the Executive Director of the Eclipse Foundation.
+The Eclipse Foundation will terminate a Working Group by putting a public notice on the Working Group communication channel. All Materials created by the terminated Working Group will be archived by the Eclipse Foundation.
 
 [[wg-modifying-process]]
-=== Modifying This Process
+== Modifying This Process
 
-The EMO is responsible for maintaining this document and all changes must be approved by the Board of Directors.
+The Eclipse Foundation is responsible for maintaining this document and all changes must be approved by the Board of Directors.
 
 [[wg-exceptions]]
 == Exceptions

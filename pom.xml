@@ -87,7 +87,7 @@
 						<scriptsdir>./resources</scriptsdir>
 						<toc>macro</toc>
 						<toc-placement>auto</toc-placement>
-						<icons>font</icons>
+						<icons></icons>
 						<figure-caption>false</figure-caption>
 						<experimental/>
 					</attributes>
