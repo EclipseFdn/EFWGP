@@ -10,6 +10,8 @@
  * SPDX-License-Identifier: EPL-2.0
 -->
 
+[![REUSE status](https://api.reuse.software/badge/github.com/EclipseFdn/EFWGP)](https://api.reuse.software/info/github.com/EclipseFdn/EFWGP)
+
 # Eclipse Foundation Working Groups
 
 This repository contains the documents that define the Eclipse Foundation Working Group Process.
