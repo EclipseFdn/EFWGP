@@ -259,7 +259,7 @@ image:images/image1.png[image]
 Any Eclipse Strategic or ContributingMember(s) may initiate the creation of a Working Group. To begin the process, the Member may submit a request to do so to membership@eclipse.org, or otherwise engage directly with a member of the Eclipse Foundation business development team.
 
 [[wg-opportunity]]
-== Opportunity Phase
+=== Opportunity Phase
 
 All Working Groups start in the _Opportunity Phase_. This phase is used to validate the viability of the Working Group and identify the Lead Organization. Although the Eclipse Foundation does not enter into non-disclosure or confidentiality agreements, a Working Group is not publicly exposed while in the opportunity phase. While in the Opportunity Phase, the Eclipse Foundation works with the Lead Organization to define the vision and scope of the work to be engaged in by the Working Group; execute the Working Group Initiation Agreement (“Initiation Agreement” or, effectively, a memorandum of understanding); and identify potential Participants.
 
@@ -277,7 +277,7 @@ Success criteria:
 Upon completion of these goals, the Working Group moves into the Proposal Phase.
 
 [[wg-proposal]]
-== Proposal Phase
+=== Proposal Phase
 
 The _Proposal Phase_ starts when the draft Working Group Charter is posted to the Eclipse.org website by the Eclipse Foundation for public review and announced to the Eclipse Membership At-Large.
 
@@ -298,7 +298,7 @@ Success criteria:
 Upon completion of these criteria, the Working Group enters the Incubation Phase.
 
 [[wg-incubation]]
-== Incubation Phase
+=== Incubation Phase
 
 Once the Working Group is created, a notification will be sent to the Members with the initial list of Participants and an invitation to other Members to participate. At this time, the communication infrastructure for the Working Group will be established.
 
@@ -322,7 +322,7 @@ Success criteria:
 Upon completion of these criteria, the Working Group enters the Operational Phase.
 
 [[wg-operational]]
-== Operational Phase
+=== Operational Phase
 
 The majority of Working Group work is intended to be accomplished during its _Operational Phase_. The development of the Materials and programs for each Working Group is undertaken by its Participants during this phase. The Working Group Steering Committee shall provide regular systematic status reporting to the Eclipse Foundation. The Working Group Steering Committee will provide overall coordination; monitor conformity with the Charter; establish and monitor progress against milestones and schedules; provide attention to issues involving dependencies between Participants; and ensure that all plans, documents, reports, and interactions are made available to the Participants of the Working Group and (when applicable) community.
 
@@ -332,7 +332,7 @@ For more information on operating a Working Group, please see the {operationsUrl
 ====
 
 [[wg-termination]]
-== Working Group Termination
+=== Working Group Termination
 
 It is expected that some Working Groups will exist for a specific period of time to accomplish a specific objective and some Working Groups will continue for an extended period of time. Regardless, at some point in time the operation of Working Groups may need to be terminated. Two events may trigger the termination of an Working Group: 1) following a super-majority (two-thirds) affirmative vote of the Steering Committee, the Steering Committee requests that the Executive Director terminate the Working Group; or 2) the Working Group is deemed inactive or non-compliant with the Working Group’s Charter by the Executive Director at their sole discretion.
 
