@@ -10,19 +10,7 @@
  * SPDX-License-Identifier: EPL-2.0
 ////
 
-:bylawsUrl: https://www.eclipse.org/org/documents/eclipse_foundation-bylaws.pdf
-:membershipAgreementUrl: https://www.eclipse.org/org/documents/eclipse-foundation-membership-agreement.pdf
-:ipPolicyUrl: http://eclipse.org/org/documents/Eclipse_IP_Policy.pdf
-:antitrustUrl: https://www.eclipse.org/org/documents/Eclipse_Antitrust_Policy.pdf
-:privacyPolicyUrl: https://www.eclipse.org/legal/privacy.php
-:codeOfConductUrl: https://www.eclipse.org/org/documents/Community_Code_of_Conduct.php
-:communicationPolicyUrl: https://www.eclipse.org/org/documents/communication-channel-guidelines/
-:edpUrl: https://www.eclipse.org/projects/dev_process/development_process.php
-:efspUrl: https://www.eclipse.org/projects/efsp/
-:efslUrl: https://www.eclipse.org/legal/efsl.php
-:eftcklUrl: https://www.eclipse.org/legal/tck.php
-
-:operationsUrl: link:operations.php
+include::config.adoc[]
 
 [[wg]]
 = Eclipse Foundation Working Group Process

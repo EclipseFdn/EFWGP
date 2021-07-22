@@ -116,7 +116,6 @@
 							<sourceDocumentName>operations.adoc</sourceDocumentName>
 							<headerFooter>false</headerFooter>
 							<attributes>
-								<toc>auto</toc>
 							</attributes>
 						</configuration>
 					</execution>

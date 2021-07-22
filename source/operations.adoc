@@ -1,5 +1,5 @@
 ////
- * Copyright (C) 2008,2021 Eclipse Foundation, Inc. and others. 
+ * Copyright (C) 2018,2021 Eclipse Foundation, Inc. and others. 
  * 
  * This program and the accompanying materials are made available under the
  * terms of the Eclipse Public License v. 2.0 which is available at
@@ -10,26 +10,29 @@
  * SPDX-License-Identifier: EPL-2.0
 ////
 
-:efspUrl: https://www.eclipse.org/projects/efsp
-:efspLink: {efspUrl}[Eclipse Foundation Specification Process]
+include::config.adoc[]
 
 = Eclipse Foundation Working Group Operations
 
-Version 1.0
+Version 1.0.1
 
-This document describes the lifecycle and operation of Eclipse Foundation Working Groups. In particular, this document describes how the Eclipse Foundation implements the https://www.eclipse.org/org/workinggroups/process.php[Eclipse Foundation Working Group Process]. 
+toc::[]
+
+This document describes the lifecycle and operation of Eclipse Foundation Working Groups. In particular, this document describes how the Eclipse Foundation implements the {processUrl}[Eclipse Foundation Working Group Process]. 
 
 The following documents define the governance of the Eclipse Foundation in general, and working groups, open source projects, and open source specifications in particular. 
 
-* https://www.eclipse.org/org/documents/eclipse_foundation-bylaws.pdf[Eclipse Foundation Bylaws]
-* https://www.eclipse.org/org/documents/eclipse_membership_agreement.pdf[Eclipse Foundation Membership Agreement]
-* https://www.eclipse.org/org/documents/Eclipse_IP_Policy.pdf[Eclipse Foundation Intellectual Property Policy]
-* https://www.eclipse.org/org/documents/Eclipse_Antitrust_Policy.pdf[Eclipse Foundation Antitrust Policy]
-* https://www.eclipse.org/org/workinggroups/industry_wg_process.php[Eclipse Foundation Working Group Process]
-* https://www.eclipse.org/projects/dev_process/development_process.php[Eclipse Foundation Development Process]
-* {efspLink}
-* https://www.eclipse.org/legal/efsl.php[Eclipse Foundation Specification License]
-* https://www.eclipse.org/legal/tck.php[Eclipse Foundation Technology Compatibility Kit License]
+* {bylawsUrl}[Eclipse Foundation Bylaws]
+* {membershipAgreementUrl}[Eclipse Foundation Membership Agreement]
+* {ipPolicyUrl}[Eclipse Foundation Intellectual Property Policy]
+* {antitrustUrl}[Eclipse Foundation Antitrust Policy]
+* {privacyPolicyUrl}[Eclipse Foundation Privacy Policy]
+* {codeOfConductUrl}[Eclipse Foundation Code of Conduct]
+* {communicationPolicyUrl}[Eclipse Foundation Communication Channel Guidelines]
+* {edpUrl}[Eclipse Foundation Development Process]
+* {efspUrl}[Eclipse Foundation Specification Process]
+* {efslUrl}[Eclipse Foundation Specification License]
+* {eftcklUrl}[Eclipse Foundation Technology Compatibility Kit License]
 
 In the event of any conflict between the terms set forth in this operations guide and the terms of the documents listed above, the terms of those documents shall take precedence.
 
@@ -106,7 +109,7 @@ Each working group must establish a steering committee. The steering committee i
 
 === Specification Committee
 
-The specification committee, in addition to any other responsibilities given to it through the working group charter, is responsible for implementing the {efspLink} (EFSP) for all specification projects that operate under the working group’s purview.  
+The specification committee, in addition to any other responsibilities given to it through the working group charter, is responsible for implementing the {efspUrl}[Eclipse Foundation Specification Process] (EFSP) for all specification projects that operate under the working group’s purview.  
 
 The specification committee is ultimately responsible for ensuring that the ratified final specifications produced by the working group’s specification projects match the working group’s purpose and goals, that they can be implemented, and that those aspects of the Eclipse Intellectual Property Policy with regard to essential claims are observed. In practical terms, specification committee participants wield power via the ballots that are required to approve key lifecycle events per the EFSP.  
 
@@ -634,7 +637,7 @@ Yes. A working group may combine committees. It may be desirable to, for example
 
 What is the relationship between a working group and a specification project? ::
 
-The relationship between a working group and a specification project is very formal. It is one-to-one. It's not strictly true to say that a specification project is "owned" by a working group, but rather that a specification project works under the supervision of a single working group. Specifically, the working group's specification committee has a decision making responsibility (via ballot) regarding whether or not a specification project's releases may produce a final specification. For more information, see the {efspLink}.
+The relationship between a working group and a specification project is very formal. It is one-to-one. It's not strictly true to say that a specification project is "owned" by a working group, but rather that a specification project works under the supervision of a single working group. Specifically, the working group's specification committee has a decision making responsibility (via ballot) regarding whether or not a specification project's releases may produce a final specification. For more information, see the {efspUrl}[Eclipse Foundation Specification Process].
 
 What is the relationship between a working group and an Eclipse software (i.e., non-specification) project? ::
 
