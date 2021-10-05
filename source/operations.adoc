@@ -1,247 +1,315 @@
-////
- * Copyright (C) 2018,2021 Eclipse Foundation, Inc. and others. 
- * 
- * This program and the accompanying materials are made available under the
- * terms of the Eclipse Public License v. 2.0 which is available at
- * http://www.eclipse.org/legal/epl-2.0.
- * 
- * SPDX-FileType: SOURCE
- *
- * SPDX-License-Identifier: EPL-2.0
-////
+= Eclipse Foundation Working Group Operations Guide
 
-include::config.adoc[]
-
-= Eclipse Foundation Working Group Operations
-
-Version 1.0.1
+Version 2.1  
 
 toc::[]
 
-This document describes the lifecycle and operation of Eclipse Foundation Working Groups. In particular, this document describes how the Eclipse Foundation implements the {processUrl}[Eclipse Foundation Working Group Process]. 
+This document describes the lifecycle and operation of Eclipse Foundation Working Groups. In particular, this document describes how the Eclipse Foundation implements the https://www.eclipse.org/org/workinggroups/process.php#[Eclipse Foundation Working Group Process].
 
-The following documents define the governance of the Eclipse Foundation in general, and working groups, open source projects, and open source specifications in particular. 
+The following documents define the governance of the Eclipse Foundation in general, and working groups, open source projects, and open source specifications in particular.
 
-* {bylawsUrl}[Eclipse Foundation Bylaws]
-* {membershipAgreementUrl}[Eclipse Foundation Membership Agreement]
-* {ipPolicyUrl}[Eclipse Foundation Intellectual Property Policy]
-* {antitrustUrl}[Eclipse Foundation Antitrust Policy]
-* {privacyPolicyUrl}[Eclipse Foundation Privacy Policy]
-* {codeOfConductUrl}[Eclipse Foundation Code of Conduct]
-* {communicationPolicyUrl}[Eclipse Foundation Communication Channel Guidelines]
-* {edpUrl}[Eclipse Foundation Development Process]
-* {efspUrl}[Eclipse Foundation Specification Process]
-* {efslUrl}[Eclipse Foundation Specification License]
-* {eftcklUrl}[Eclipse Foundation Technology Compatibility Kit License]
+* https://www.eclipse.org/org/documents/eclipse_foundation-bylaws.pdf#[Eclipse Foundation Bylaws]
+* https://www.eclipse.org/org/documents/eclipse_membership_agreement.pdf#[Eclipse Foundation Membership Agreement]
+* https://www.eclipse.org/org/documents/Eclipse_IP_Policy.pdf#[Eclipse Foundation Intellectual Property Policy]
+* https://www.eclipse.org/org/documents/Eclipse_Antitrust_Policy.pdf#[Eclipse Foundation Antitrust Policy]
+* https://www.eclipse.org/legal/privacy.php#[Eclipse Foundation Privacy Policy]
+* https://www.eclipse.org/org/documents/Community_Code_of_Conduct.php#[Eclipse Foundation Code of Conduct]
+* https://www.eclipse.org/org/documents/communication-channel-guidelines/#[Eclipse Foundation Communication Channel Guidelines]
+* https://www.eclipse.org/org/workinggroups/industry_wg_process.php#[Eclipse Foundation Working Group Process]
+* https://www.eclipse.org/projects/dev_process/development_process.php#[Eclipse Foundation Development Process]
+* https://www.eclipse.org/projects/efsp/#[Eclipse Foundation Specification Process]
+* https://www.eclipse.org/legal/efsl.php#[Eclipse Foundation Specification License]
+* https://www.eclipse.org/legal/tck.php#[Eclipse Foundation Technology Compatibility Kit License]
 
 In the event of any conflict between the terms set forth in this operations guide and the terms of the documents listed above, the terms of those documents shall take precedence.
 
+[[h.rwbjadcpxswq]]
+== Guiding Principles
+
+All Working Groups must operate in an open and transparent manner.
+
+Open - Working Groups provide the same opportunity to all Members to participate in accordance with the Charter. Everyone participates with the same rules; there are no rules to exclude any potential contributors which include, of course, direct competitors in the marketplace.
+
+Transparent - Minutes, plans, and other artifacts are open and easily accessible to all.
+
+Working groups, like all communities associated with the Eclipse Foundation, must operate in adherence to the Foundation’s Code of Conduct.
+
+[[h.cbzqnsu8tqr9]]
+== Code of Conduct
+
+All individuals involved in a working group, either representing themselves or their member organization, are obligated to conduct themselves in accordance with the Eclipse Foundation’s https://www.eclipse.org/org/documents/Community_Code_of_Conduct.php#[Community Code of Conduct], and to generally work to contribute to the overall objectives identified for the working group.
+
+[[h.6dqb0x3zmglx]]
+== Relationship with Open Source Projects
+
+The purpose of working groups is to complement the activities of Eclipse Foundation open source projects by undertaking activities that projects have historically found difficult to manage. As self-governing meritocracies, there is no notion of working group ownership of projects. That is, working groups do not own or manage open source projects. Rather, working groups may express non-exclusive interest in some number of Eclipse open source projects. This set of projects of interest (or more simply, the working group’s projects) is defined, either directly or indirectly in the working group’s charter or by resolution of its Steering Committee. Specification projects that operate under the purview of the working group’s https://www.eclipse.org/org/workinggroups/operations.php#specification-committee[specification committee] are automatically included in the working group’s project set.
+
+With the exception of specification projects, which operate under the purview of a working group’s specification committee, a working group has no direct power to affect the operation of open source projects in which they express interest (a working group exerts influence over Eclipse projects by having working group participants engage in the open source process, particularly by making contributions).
+
+Working groups typically provide input and guidance on project roadmaps, and release schedules, on behalf of their projects. Working groups may take on responsibility for promotion, marketing, developer advocacy, and branding strategies for their projects.
+
+The union of the committers from a working group’s projects comprise the working group committers.
+
+[[h.ppakbnprkh24]]
 == Roles
 
-=== Working Groups Manager
+[[h.7cw1r1j3wwjp]]
+=== Working Groups Program Director
 
-The Working Groups Manager has overall responsibility for the implementation of the Eclipse Foundation Working Group Process. They chair internal Working Group status meetings, provide expert advice regarding related processes and operations, and otherwise facilitate discussion and collaboration within the Working Groups Team. 
+The Working Groups Program Director has overall responsibility for the implementation of the Eclipse Foundation Working Group Process. They chair internal Working Group status meetings, provide expert advice regarding related processes and operations, and otherwise facilitate discussion and collaboration within the Working Groups Team.
 
+[[h.m2tadnj3b332]]
 === Working Group Sponsor
 
-The Working Group Sponsor (“Sponsor”) is a representative from the Eclipse Foundation’s senior leadership team who ensures that this and related processes are understood and followed by all parties, and facilitates the early phases of individual working groups (e.g. host calls, provide input and guidance on development of program plans and budgets, etc.). The Sponsor acts as the primary liaison between the Working Group and the EMO.
+The Working Group Sponsor (“Sponsor”) is a representative from the Eclipse Foundation’s senior leadership team who ensures that this and related processes are understood and followed by all parties, and facilitates the early phases of individual working groups (e.g. host calls, provide input and guidance on development of program plans and budgets, etc.). The Sponsor acts as the primary liaison between the Working Group and the Eclipse Foundation.
 
+[[h.bwbzcb26yk29]]
 === Working Groups Team
 
 Directors, executives, and program managers engaged in the development of Eclipse Foundation working groups.
 
-[[program-manager]]
+[[h.dxfhsmgqg3ps]]
 === Program or Community Manager
 
 The Program Manager is an Eclipse Foundation staff member who collaborates with the Participant working group members to articulate the working group’s vision, technical strategy, marketing strategy, and objectives. The Program Manager is also responsible to evangelize the working group’s vision and projects to the relevant industry segments, and to assist in working group recruitment.
 
+[[h.548vyoxpy5ij]]
 == Membership
 
-Each working group chooses the levels of membership that best suit its objectives.  Generally, there are three to five fundamental levels of working group membership:
+Each working group chooses the levels of membership that best suit its objectives. Generally, there are three to five fundamental levels of working group membership:
 
-* *Strategic Members* are organizations that view technology as strategic to their organization and are investing significant resources to sustain and shape the activities of this working group. Strategic Members are generally required to commit to strategic membership for a three (3) year period (especially when the working group is directly funding Eclipse Foundation staff).
-* *Gold* or *Enterprise Members* are typically organizations that view enterprise technology as a critical part of their organization's business operations.
-* *Silver* or *Participant Members* (AKA “Participant Members”) are typically organizations that deliver products or services based on technology. These organizations want to participate in the development of the ecosystem associated with the technology.
-* *Committer Members* are individuals who through a process of meritocracy defined by the Eclipse Foundation Development Process are able to contribute and commit code to the Eclipse Foundation projects included in the scope of the working group. Committers may be members by virtue of working for a member organization, or may choose to complete the membership process independently if they are not. For further explanation and details, see the Eclipse Committer Membership page.
-* *Guest Members* are organizations which are Associate members of the Eclipse Foundation who have been invited for one year, renewable, by the Steering Committee to participate in particular aspects of the activities of the Working Group. Typical guests include JUGs, R&D partners, universities, academic research centers, etc. Guests may be invited to participate in committee meetings at the invitation of the respective committee, but under no circumstances do Guest members have voting rights. 
+* Strategic Members are organizations that view technology as strategic to their organization and are investing significant resources to sustain and shape the activities of this working group. Strategic Members are generally required to commit to strategic membership for a three (3) year period (especially when the working group is directly funding Eclipse Foundation staff).  Strategic Members of the Working Group must be at least a Contributing Member of the Eclipse Foundation.
+* Participant Members are typically organizations that deliver products or services based on technology. These organizations want to participate in the development of the ecosystem associated with the technology. Participant Members of the Working Group must be at least a Contributing Member of the Eclipse Foundation.
+* Committer Members are individuals who through a process of meritocracy defined by the Eclipse Foundation Development Process are able to contribute and commit code to the Eclipse Foundation projects included in the scope of the working group and either work for a member organization, or have chosen to complete the membership process independently. For further explanation and details, see thehttps://www.eclipse.org/membership/become_a_member/committer.php#[ Eclipse Committer Membership page].
+* Guest Members are organizations which are Associate members of the Eclipse Foundation. Typical guests include JUGs, R&D partners, universities, academic research centers, etc. Guests may be invited to participate in committee meetings at the invitation of the respective committee, but under no circumstances do Guest members have voting rights.
 
-In different contexts, these levels may have different names, but the descriptions of the membership types must be fundamentally equivalent.  
+In different contexts, these levels may have different names, but the descriptions of the membership types must be fundamentally equivalent.
 
-Strategic, Gold, and Silver working group membership classes must designate a minimum https://www.eclipse.org/membership/#tab-levels[Eclipse Foundation membership level] of Eclipse Solutions Member. Guest members are typically restricted to Associate Members of Eclipse Foundation. 
+Strategic and Participant working group membership classes must designate a minimum https://www.eclipse.org/membership/#tab-levels[Eclipse Foundation membership level] of Eclipse Solutions Member.
 
-All working group members are required to sign the working group’s <<participation-agreement, Working Group Participation Agreement>>.
+All working group members are required to sign the working group’s https://www.eclipse.org/org/workinggroups/operations.php#participation-agreement[Working Group Participation Agreement].
 
+[[h.ocfie1a0wb96]]
 === Annual Participation Fees
 
-Each working group establishes annual fees for each of its classes of participation.  Unless otherwise stipulated in the working group charter and agreed to by the Foundation, members agree to pay the established annual fee upon execution of their Participation Agreement, and each subsequent year on their anniversary.  Our standard practice is to have three year commitments from Strategic participants to support the long-term goals of the working group, and in particular to establish longer term financial support, including  funding for staff. 
+Each working group establishes annual fees for each of its classes of participation. Unless otherwise stipulated in the working group charter and agreed to by the Foundation, members agree to pay the established annual fee upon execution of their Participation Agreement, and each subsequent year on their anniversary. Our standard practice is to have three year commitments from Strategic participants to support the long-term goals of the working group, and in particular to establish longer term financial support, including funding for staff.
 
-Fee collection for working groups begins when the working group is established. Unless otherwise stated in the charter, fees are collected for a twelve month period.  The working group will establish a budget, as described below, each calendar year based on the expected fees collected. 
+Fee collection for working groups begins when the working group is established. Unless otherwise stated in the charter, fees are collected for a twelve month period. The Eclipse Foundation will establish a budget, as described below, each calendar year based on the expected revenue collected.  Working Group fees must cover the full direct and indirect costs associated with its operation.
 
-== Relationship with Open Source Projects
+[[h.516rq9gyyk0s]]
+== Specifications
 
-The purpose of working groups is to complement the activities of Eclipse Foundation open source projects by undertaking activities that projects have historically found difficult to manage. As self-governing meritocracies, there is no notion of working group _ownership_ of projects. That is, working groups do not own or manage open source projects. Rather, working groups may express non-exclusive _interest_ in some number of Eclipse open source projects. This set of _projects of interest_ (or more simply, the working group’s _projects_) is defined, either directly or indirectly in the working group’s charter or by resolution of its Steering Committee. Specification projects that operate under the purview of the working group’s <<specification-committee,specification committee>> are automatically included in the working group’s project set. 
+Specifications are created and maintained by Specification Projects. Each Specification Project is aligned with exactly one Working Group. Specification Projects are said to work under the purview of a particular Working Group, or—​more specifically—​the Specification Committee of a Working Group.
 
-With the exception of specification projects, which operate under the purview of a working group’s specification committee, a working group has no direct power to affect the operation of open source projects in which they express interest (a working group exerts influence over Eclipse projects by having working group participants engage in the open source process, particularly by making contributions). 
+A working group that engages in specification development must implement the Eclipse Foundation Specification Process (EFSP). Prior to the Working Group engaging in any specification work, the Steering Committee must vote to adopt a particular version of the EFSP or derivative thereof. The Steering Committee must further vote to adopt a default Patent License (either Compatible Patent License or Implementation Patent License) as defined by the Eclipse Foundation Intellectual Property Policy.
 
-Working groups typically provide input and guidance on project roadmaps, and release schedules, on behalf of their projects. Working groups may take on responsibility for promotion, marketing, developer advocacy, and branding strategies for their projects. 
+A working group may engage in specification lifecycle events (e.g., creation and progress reviews) while in the https://www.eclipse.org/org/workinggroups/operations.php#incubation-phase[incubation phase], but must be in the https://www.eclipse.org/org/workinggroups/operations.php#operational-phase[operational phase] before its specification committee can ratify a Final Specification. That is, a working group may only release a Final Specification after it has entered the operational phase.
 
-The union of the committers from a working group’s projects comprise the _working group committers_.
+[[h.my72uwel9riu]]
+== Engagement with Eclipse Foundation Staff and Resources
 
+One of the benefits of creating a Working Group is to benefit from the engagement of the Eclipse Foundation professional staff, and to leverage the services offered by the Eclipse Foundation. As part of the operation of the working group, and in particular in the establishment of objectives, the execution of work items, and the Working Group’s budget, the Working Group is expected to engage directly with the Eclipse Foundation in execution of the Working Group.
+
+It is recommended that every Working Group allocate sufficient budget for a Program Manager, who works directly with the Steering Committee and the Working Group at large. The Program Manager serves as liaison between the various parties.
+
+Regardless of whether a Program Manager is included in the budget, the budget must provide adequate funding and resources to achieve the stated objectives and related work items stemming from the Program Plan. This funding will, at a minimum, include funding to support the Eclipse Foundation staff involved, and for the Foundation to manage and oversee the Working Group appropriately. In turn, the Eclipse Foundation will, to the extent feasible within the budget constraints established, fulfill the work items as agreed to with the Working Group, and will in general engage in good faith to the betterment of the Working Group and its Participants.
+
+[[h.fg2mz3v1vj2j]]
 == Committees
 
-Every committee must have a chairperson (or “chair”), and a secretary. These roles may have alternates. These roles may be occupied by the same individuals, or may be rotated among committee members. 
+Every committee must have a chairperson (or “chair”), and a secretary. These roles may have alternates. These roles may be occupied by the same individuals, or may be rotated among committee members.
 
-The chair is responsible for making sure that each meeting is planned effectively, conducted according to the rules outlined in the working group charter, and that matters are dealt with in an orderly, efficient manner. Individual committees nominate and elect (by simple majority) their committee chair, who must then be approved and appointed by the EMO(ED). 
+The chair is responsible for making sure that each meeting is planned effectively, conducted according to the rules outlined in the working group charter, and that matters are dealt with in an orderly, efficient manner. Individual committees nominate and elect (by simple majority) their committee chair, who must then be approved and appointed by the Eclipse Foundation Executive Director.
 
-The initial (interim) chair for each committee is appointed by the EMO(ED) or their designate. At the earliest opportunity, each committee must nominate and elect a new chair. Unless specified otherwise in the charter, it is expected that a committee will hold elections for the role of chair on an annual basis.  A person may serve multiple terms as a chair.
+The initial (interim) chair for each committee is appointed by the Eclipse Foundation Executive Director or their designate. At the earliest opportunity, each committee must nominate and elect a new chair.
 
-All working groups must adhere to the Eclipse Antitrust Policy with respect to formal minutes and agendas of committee meetings. As a result, every committee must nominate and elect a secretary. The secretary is the person who keeps and disseminates formal records of the working group's process and decisions (i.e., the minutes of all formal meetings). Individual committees nominate and elect (by simple majority) their committee secretary (no further approval is required). 
+All working groups must conform to the Eclipse Foundation Antitrust Policy with respect to formal minutes and agendas of committee meetings. The secretary is the person who keeps and disseminates formal records of the working group’s process and decisions (i.e., the minutes of all formal meetings). Individual committees nominate and elect (by simple majority) their committee secretary (no further approval is required).
 
-Should a working group committee find itself with a vacant chair, the working group may continue to either operate without a chair or with an Eclipse Foundation staff member moderating meetings until the role is filled.   
+Should a working group committee find itself with a vacant chair, the working group may continue to either operate without a chair or with an Eclipse Foundation staff member moderating meetings until the role is filled.
 
-During committee meetings, committee members must put forward motions which must be seconded, before a vote can take place. 
+During committee meetings, committee members must put forward motions which must be seconded, before a vote can take place.
 
-It's important to note that Eclipse Foundation staff are not members of any committee but rather attend meetings in an ex officio manner, and cannot vote on committee matters even when acting as Chair.
+It’s important to note that Eclipse Foundation staff are not members of any committee but rather attend meetings in an ex officio manner, and cannot vote on committee matters even when acting as Chair.
 
+[[h.puy6ear5wq5w]]
 === Steering Committee
 
-Each working group must establish a steering committee. The steering committee is responsible for defining and implementing the working group’s charter and generally providing oversight of the activities of the working group. The steering committee has the ultimate responsibility for establishing the purpose, goals, and roadmap for the working group. The steering committee is further responsible for establishing working group specific policies, processes, and practices; and for making decisions regarding working group matters not addressed by the working group charter, this guide, or other established practices and policies.  See the https://www.eclipse.org/org/workinggroups/process.php#wg-committees[Eclipse Foundation Working Group Process] for more detailed responsibilities of the Steering Committee.  
+Each working group must establish a steering committee. The steering committee is responsible for defining and implementing the working group’s charter and generally providing oversight of the activities of the working group. The steering committee has the ultimate responsibility for establishing the purpose, goals, and roadmap for the working group. The steering committee is further responsible for establishing working group specific policies, processes, and practices; and for making decisions regarding working group matters not addressed by the working group charter, this guide, or other established practices and policies. See the https://www.eclipse.org/org/workinggroups/process.php#wg-committees[Eclipse Foundation Working Group Process] for more detailed responsibilities of the Steering Committee.
 
+[[h.prvx2gq33dat]]
 === Specification Committee
 
-The specification committee, in addition to any other responsibilities given to it through the working group charter, is responsible for implementing the {efspUrl}[Eclipse Foundation Specification Process] (EFSP) for all specification projects that operate under the working group’s purview.  
+The specification committee, in addition to any other responsibilities given to it through the working group charter, is responsible for implementing the https://www.eclipse.org/projects/efsp#[Eclipse Foundation Specification Process] (EFSP) for all specification projects that operate under the working group’s purview.
 
-The specification committee is ultimately responsible for ensuring that the ratified final specifications produced by the working group’s specification projects match the working group’s purpose and goals, that they can be implemented, and that those aspects of the Eclipse Intellectual Property Policy with regard to essential claims are observed. In practical terms, specification committee participants wield power via the ballots that are required to approve key lifecycle events per the EFSP.  
+The specification committee is ultimately responsible for ensuring that the ratified final specifications produced by the working group’s specification projects match the working group’s purpose and goals, that they can be implemented, and that those aspects of the Eclipse Intellectual Property Policy with regard to essential claims are observed. In practical terms, specification committee participants wield power via the ballots that are required to approve key lifecycle events per the EFSP.
 
-The specification committee is responsible for producing, publishing and maintaining operational guidance documentation for specification projects. This includes the minimum requirements and process for producing a ratified final specification. It also includes operational guidance for running a specifications TCK for the purpose of testing for compatibility. 
+The specification committee is responsible for producing, publishing and maintaining operational guidance documentation for specification projects. This includes the minimum requirements and process for producing a ratified final specification. It also includes operational guidance for running a specifications TCK for the purpose of testing for compatibility.
 
-The specification committee chair (or their delegate) is responsible for initiating ballots, tallying their results, disseminating them to the community, and (when appropriate; e.g., in the case a release review ballot) reporting them to the EMO. 
+The specification committee chair (or their delegate) is responsible for initiating ballots, tallying their results, disseminating them to the community, and (when appropriate; e.g., in the case of a release review ballot) reporting them to the Eclipse Foundation.
 
-The specification committee is also responsible for defining and refining how they implement the EFSP. 
+The specification committee is also responsible for defining and refining how they implement the EFSP.
 
-The specification committee is *not* responsible for the day-to-day operation of specification projects, and does not have any responsibility or authority regarding the structure or organization of specification projects and corresponding top level project. 
+The specification committee is not responsible for the day-to-day operation of specification projects, and does not have any responsibility or authority regarding the structure or organization of specification projects and corresponding top level project.
 
+[[h.zw4bu1rlcv5]]
 === Project Management Committee (PMC)
 
-The composition and role of the Project Management Committee (PMC) is defined by the https://www.eclipse.org/projects/dev_process[Eclipse Foundation Development Process] (EDP) and operates independently from the working group. Specifically, the PMC is not actually part of the working group; it is included here to ensure that individuals involved with the working group understand the PMC’s role. 
+A PMC is not directly aligned with any Working Group.
 
-A PMC is responsible for the operation of exactly one Top Level Project as defined by the EDP. Per the EDP, top level projects sit at the top of the open source project hierarchy. Top level projects do not generally maintain open source code of their own, but rather provide oversight and guidance to those open source projects that fall under them in the project hierarchy. All projects that fall under a particular top level project must fit within the mission and scope defined by the top level project’s charter. In addition to mission and scope, the charter may further define other requirements or establish guidelines for practices by the project that fall under its purview. 
+The composition and role of the Project Management Committee (PMC) is defined by the https://www.eclipse.org/projects/dev_process#[Eclipse Foundation Development Process] (EDP) and operates independently from the working group. Specifically, the PMC is not actually part of the working group; it is included here to ensure that individuals involved with the working group understand the PMC’s role.
 
-The primary role of the PMC is to ensure that project teams are implementing the EDP. In particular, the PMC monitors project activity to ensure that project teams are operating in an open and transparent manner. The PMC reviews and approves (or vetos) committer elections, first validating that candidate committers have demonstrated sufficient merit.  
+A PMC is responsible for the operation of exactly one Top Level Project as defined by the EDP. Per the EDP, top level projects sit at the top of the open source project hierarchy. Top level projects do not generally maintain open source code of their own, but rather provide oversight and guidance to those open source projects that fall under them in the project hierarchy. All projects that fall under a particular top level project must fit within the mission and scope defined by the top level project’s charter. In addition to mission and scope, the charter may further define other requirements or establish guidelines for practices by the project that fall under its purview.
 
-The PMC is further responsible for ensuring that project teams abide by the Eclipse IP Policy and implementing the Eclipse Intellectual Property (IP) Due Diligence process.  
+The primary role of the PMC is to ensure that project teams are implementing the EDP. In particular, the PMC monitors project activity to ensure that project teams are operating in an open and transparent manner. The PMC reviews and approves (or vetos) committer elections, first validating that candidate committers have demonstrated sufficient merit.
 
-The PMC is responsible for defining and managing the structure of the top level project and the organization of the open source (software and specification) projects contained within. 
+The PMC is further responsible for ensuring that project teams abide by the Eclipse IP Policy and implementing the Eclipse Intellectual Property (IP) Due Diligence process.
 
-The PMC is a link in the project leadership chain. As such, the PMC has a role in the grievance handling process: they identify and document project dysfunction (with the responsibility to remove or replace disruptive committers) 
+The PMC is responsible for defining and managing the structure of the top level project and the organization of the open source (software and specification) projects contained within.
+
+The PMC is a link in the project leadership chain. As such, the PMC has a role in the grievance handling process: they identify and document project dysfunction (with the responsibility to remove or replace disruptive committers)
 
 The PMC provides other oversight regarding the operation of open source projects. They review and approve release and progress review materials, and facilitate cross-project communication within the top level project.
 
+[[h.exw3gowdu1xz]]
 === Marketing and Brand Committee
 
-Each working group may establish a marketing and brand committee. The marketing and brand committee is responsible for defining the strategic marketing priorities, goals, and objectives for the working group. The marketing and brand committee is further responsible for providing general oversight of the marketing activities of the working group, including providing feedback to the EMO on the marketing, brand, and communications plans and activities executed on behalf of the working group. The committee will define the working group trademark policy, if applicable, and refer to it for approval by the steering committee.  
+Each working group may establish a marketing and brand committee. The marketing and brand committee is responsible for defining the strategic marketing priorities, goals, and objectives for the working group. The marketing and brand committee is further responsible for providing general oversight of the marketing activities of the working group, including providing feedback to the Eclipse Foundation on the marketing, brand, and communications plans and activities executed on behalf of the working group. The committee will define the working group trademark policy, if applicable, and refer to it for approval by the steering committee.
 
-Marketing and brand committee members are expected to be leaders in supporting the implementation of working group outreach programs and communicating key messaging on behalf of the working group via their respective channels (i.e., web, social media, others). 
+Marketing and brand committee members are expected to be leaders in supporting the implementation of working group outreach programs and communicating key messaging on behalf of the working group via their respective channels (i.e., web, social media, others).
 
 If the working group does not establish such a committee, then the general responsibilities identified above fall to the steering committee
 
+[[h.fh7t00xr7txo]]
+=== Relationship Between Committees
+
+There exists no implicit hierarchical relationship between the committees.
+
+It is the purview of the Steering Committee to set the strategy, establish the goals and objectives, and approve the budget. So from that perspective, the other committees are expected to execute in a manner that aligns with the agenda established by the Steering Committee within the funds allocated.
+
+However, the Marketing Committee is independent in that the charter clearly states that it is responsible for "...marketing and communication activities for the working group". Thus the charter clearly states that responsibility for the marketing activities of the working group have been delegated to the marketing committee. Any oversight by the steering committee is to ensure that the marketing plans are consistent with goals and objectives established in the program plan. It is not to manage or direct the Marketing Committees activities, and the Steering Committee is not an escalation path for individual decisions or actions taken by the Marketing Committee.
+
+This is entirely consistent with how Board committees work. Authority to specialize on a particular topic, to make decisions, and to take actions on behalf of the organization on matters within the stated scope, is why committees exist in governance bodies in the first place.
+
+Each committee is a collegial body in its own right. Each makes decisions as a group. Hopefully consensus is reached, but if not then there are documented rules on what voting thresholds are required for different decisions.
+
+The role of these committees is governance, not management. Ultimately this conversation resulted from a number of comments made by steering committee members in a recent meeting where they questioned decisions made by the marketing committee. From a governance perspective, the Steering Committee does not have the authority to do that.
+
+It is also important to remember that no single member of any of the committees can state a position of the committee as a whole without a decision (vote) by the committee. Equally important, once a committee does take a decision, as a collegial body the members of the Committee must accept the decision and its implications.
+
+[[h.vr48t96iu1ew]]
 === Committee Representatives
 
-The Charter specifies the means by which committee members are appointed or elected to its committees to represent the interests of aspects of the group and/or related communities.  Members may be appointed, elected, or invited to participate. 
+The Charter specifies the means by which committee members are appointed or elected to its committees to represent the interests of aspects of the group and/or related communities. Members may be appointed, elected, or invited to participate.
 
-For committer member representative elections, those individuals who are working group committers and are also members of the working group are eligible to vote.  That is, not all working group committers are required to be members of the working group; committers may be considered members by virtue of either a) being employed by a working group corporate member, or b) an individual committer who executes the working group’s Participation Agreement. 
-
+[[h.co6j5eb09fww]]
 ==== Representative Obligations
 
-Once elected to represent the members of their constituency, Elected representatives, like every other member of the committee, have the responsibility and obligation of directly defining and implementing the working group’s charter. Working group committees require quorum and regularly vote on matters pertaining to the working group.  As a result, elected representatives are required to be in good standing (as defined by the charter) with regular attendance at meetings. 
+Once elected to represent the members of their constituency, Elected representatives, like every other member of the committee, have the responsibility and obligation of directly defining and implementing the working group’s charter. Working group committees require quorum and regularly vote on matters pertaining to the working group. As a result, elected representatives are required to be in regular attendance at meetings.
 
+Representatives may designate an alternate for committee representation.  These alternates may be added to mailing lists and participate in meetings.  Alternates can be assigned proxy for voting purposes.
+
+[[h.ums9pce5rg2x]]
 ==== Terms and Dates
 
-Elected representatives shall each serve one-year terms or until their respective successors are appointed or elected, or as otherwise provided for in the charter.  
+Elected representatives shall each serve one-year terms or until their respective successors are appointed or elected, or as otherwise provided for in the charter.
 
-It’s typical for the calendar year to run from April 1 to March 31 but that is not always the case.  There shall be no prohibition on re-election or re-designation of any representative following the completion of that representative's term of office.
+It’s typical for the calendar year to run from April 1 to March 31 but that is not always the case. There shall be no prohibition on re-election or re-designation of any representative following the completion of that representative’s term of office.
 
+[[h.68sq67w8qovx]]
 === Elected Representatives
 
-A working group’s charter may define elected committee positions that represent the interests of all members of a particular constituency (e.g., committers). An election is required to select representatives for elected positions. 
+A working group’s charter may define elected committee positions that represent the interests of all members of a particular class of working group membership (e.g., Participant members, Committer members). An election is required to select representatives for elected positions.
 
-All individuals who are employed by an organization that has signed the respective working group participation agreement and/or have individually signed the respective working group participation agreement may nominate/self nominate for any elected position for which they are a constituent. The members of that constituency are likewise eligible to vote for their representative. 
+For membership classes other than Committer Members, all individuals who are employed by an organization that is a member of that class in the working group may stand for election.  For Committer members, all Committer Members who are engaged in projects under the purview of the working group are eligible to stand for election.   +
+ +
+For committer member representative elections, those individuals who are working group committers and are also members of the working group are eligible to vote. That is, not all working group committers are required to be members of the working group; committers may be considered members by virtue of either a) being employed by a working group corporate member, or b) an individual committer who executes the working group’s Participation Agreement.
+
+All positions may be self nominated.  
+
+The members of that constituency are likewise eligible to vote for their representative. For Committer Members, this means the Committer Members engaged in projects under the purview of the working group; for all other classes of membership, the working group representatives of each Member of that class may vote.
 
 Elections pass through several phases:
 
 . Working Group Election Announcement
-. Nomination Phase  (Call for Nominations/Extensions)
+. Nomination Phase (Call for Nominations/Extensions)
 . Nomination Acceptance Phase - Confirmation, Bio’s and Pictures Submissions
-. Notice of Candidates Standing Phase 
+. Notice of Candidates Standing Phase
 . Ballot Distribution Phase
 . Count of Results Phase
-. Election Results Announcement 
+. Election Results Announcement
 
-We typically allow ten business days for the Nomination Phase and Ballot Distribution Phase.  As a result, it can often take a full month to complete the entire process.  Additionally, extensions to these phases can be considered and will affect any arranged schedules. 
+We typically allow ten business days for the Nomination Phase and Ballot Distribution Phase. As a result, it can often take a full month to complete the entire process. Additionally, extensions to these phases can be considered and will affect any arranged schedules.
 
-All communication must be conducted via email using the general working group mailing list. Services may be used for an election, provided their use does not represent an unreasonable or onerous barrier for participation. Voters can only vote once and voting choices remain anonymous.  Votes must be auditable, verifiable and independently observable.
+All communication must be conducted via email using the general working group mailing list. Services may be used for an election, provided their use does not represent an unreasonable or onerous barrier for participation. Voters can only vote once and voting choices remain anonymous. Votes must be auditable, verifiable and independently observable.
 
+[[h.rbsiaeg78e3t]]
 ==== Ballots Run by The Eclipse Foundation
 
-A working group committee may opt to ask the Eclipse Foundation to run their ballot. 
+A working group committee may opt to ask the Eclipse Foundation to run their ballot.
 
-To request that a ballot be run by the Eclipse Foundation, a committee’s chair can send the request to mailto:elections@eclipse.org[elections@eclipse.org]. Unless instructed otherwise, the Eclipse Foundation will use the working group’s public mailing list to conduct the election (elections must always be run on a public mailing list). The Eclipse Foundation will work with the committee chair to set the schedule for the ballot, including nomination and voting periods.  
+To request that a ballot be run by the Eclipse Foundation, a committee’s chair can send the request to elections@eclipse.org. Unless instructed otherwise, the Eclipse Foundation will use the working group’s public mailing list to conduct the election (elections must always be run on a public mailing list). The Eclipse Foundation will work with the committee chair to set the schedule for the ballot, including nomination and voting periods.
 
-Nominations must be sent to mailto:elections@eclipse.org[elections@eclipse.org]. Ballots are distributed to email addresses on file with the Eclipse Foundation. 
+Nominations must be sent to elections@eclipse.org. Ballots are distributed to email addresses on file with the Eclipse Foundation.
 
-Note that ballot distribution may be provided by the Eclipse Foundation via a third party election service. 
+Note that ballot distribution may be provided by the Eclipse Foundation via a third party election service.
 
-The Eclipse Foundation utilizes the https://en.wikipedia.org/wiki/Single_transferable_vote[Single Transferable Vote] (STV) to calculate election results.
+The Eclipse Foundation utilizes the https://en.wikipedia.org/wiki/Single_transferable_vote#[Single Transferable Vote] (STV) to calculate election results.
 
-=== Committee Minutes
+Should a situation arise where a tie occurs, then a tie breaker will be performed virtually.
 
-All working group committees must produce and disseminate minutes of all committee meetings.
+[[h.16s3m8kuxa83]]
+=== Committee Agenda and Minutes
 
-* Include attendees and company affiliations; 
+All working group committees will follow a prepared agenda and follow procedures set forth in the Eclipse Foundation By-laws.  An agenda should be distributed prior to meetings.  Committees must also produce and disseminate minutes of all committee meetings.
+
+* Include attendees and company affiliations;
 * Identify absent attendees and company affiliations;
 * Record actions, decisions, and outstanding action items indicating responsibility;
 * Minutes are to be distributed via the relevant committee mailing list eg. steering committee in a timely manner; and
-* Minutes from meetings must be approved, typically at the next scheduled meeting.  
+* Minutes from meetings must be approved, typically at the next scheduled meeting.
 
 Approved meeting minutes must be made publicly available to all working group members as early as practical, typically by either being posted to the working group’s dedicated website and/or distributed via the working group’s general mailing list.
 
+[[h.cmksyp7bz7v]]
 == Communication
 
-The primary communication channel for a working group must be a mailing list that is managed by the Eclipse Webmaster in the eclipse.org domain. The working group will initially be assigned a single public mailing list with archive. Additional public and private mailing lists may be created as required. <<mailing-lists,Mailing lists>> are created during the <<proposal-phase,Proposal Phase>> (or as required in any phase thereafter). 
+The primary communication channel for a working group must be a mailing list that is managed by the Eclipse Webmaster in the eclipse.org domain. The working group will initially be assigned a single public mailing list with archive. Additional public and private mailing lists may be created as required. https://www.eclipse.org/org/workinggroups/operations.php#mailing-lists[Mailing lists] are created during the https://www.eclipse.org/org/workinggroups/operations.php#proposal-phase[Proposal Phase] (or as required in any phase thereafter).
 
-See below for more detail on other communications channels.  
+See below for more detail on other communications channels.
 
-== Votes
+[[h.8g1uviz6f3g0]]
+== Voting
 
-*Quorum* - A simple majority of the committee members shall be necessary to constitute a quorum for the transaction of business, except that when the number of members shall be an even number, one-half of the members shall constitute a quorum. 
+For any meeting of a Body (e.g., a Steering Committee meeting), the Body will be deemed validly constituted and has the quorum to take decisions if at least a simple majority of the voting Body members are present, represented by a proxy, or participating remotely in the meeting.  If the number of members constituting the Body is an even number, one-half (1/2) of the Body members present, represented or participating remotely in the meeting shall constitute a quorum.
 
-*Voting* - A simple majority vote of the committee members where quorum is present, except that when the number of votes shall be an even number, one half plus one shall constitute a simple majority.  
+Quorum is necessary in order to formally hold a meeting.  Should quorum not be met, matters may be discussed but not decided.
 
-All committees may hold electronic votes for any decisions that would otherwise be taken at a committee meeting.  With respect to quorum for electronic votes, quorum is based on  all eligible voters when holding a vote 
+For decisions requiring a simple majority, a simple majority is defined to be more than half the votes cast either in favor or against the motion.  Note that if the number of votes cast is even, then the motion requires one half plus one for it to be approved.  Also note that abstentions to a vote are permitted, and in such cases, the abstention does not count in the calculation of the majority, neither in the numerator nor in the denominator.
 
-The Eclipse Bylaws include more information regarding voting and voting procedures; in areas where this Operations Guide is silent, or in the case of any discrepancy between this Operations Guide and the Eclipse Bylaws, the Bylaws take precedence.  Should any disputes arise relating to voting, the Executive Director of Eclipse Foundation shall have the final decision. 
+All committees may hold electronic votes for any decisions that would otherwise be taken at a committee meeting. With respect to quorum for electronic votes, quorum is based on all eligible voters when holding a vote.
 
-== Specification Process
+Appointed representatives on the Body may be replaced by the Member organization they are representing at any time by providing written notice to the Steering Committee. In the event a Body member is unavailable to attend or participate in a meeting of the Body, they may be represented by another Body member by providing written proxy to the Body’s mailing list in advance. As per the Eclipse Foundation Bylaws, a representative shall be immediately removed from the Body upon the termination of the membership of such representative’s Member organization.  The way to utilize a proxy is to assign your proxy to another committee member.  This can be done on list (preferably) or off-list, cc’ing the committee chair.
 
-A working group that engages in specification development must implement the Eclipse Foundation Specification Process. 
+The Eclipse Bylaws include more information regarding voting and voting procedures; in areas where this Operations Guide is silent, or in the case of any discrepancy between this Operations Guide and the Eclipse Bylaws, the Bylaws take precedence. Should any disputes arise relating to voting, the Executive Director of Eclipse Foundation shall have the final decision.
 
-A working group may engage in specification lifecycle events (e.g., creation and progress reviews) while in the <<incubation-phase, incubation phase>>, but must be in the <<operational-phase, operational phase>> before its specification committee can ratify a Final Specification. That is, a working group may only release a Final Specification after it has entered the operational phase.
-
+[[h.5lpos6p4mf1x]]
 == Grievance Handling
 
-All individuals involved in a working group, either representing themselves or their member organization, are expected to conduct themselves in accordance with the Eclipse Foundation’s https://www.eclipse.org/org/documents/Community_Code_of_Conduct.php[Community Code of Conduct], and to generally work to contribute to the overall objectives identified for the working group.  Should an individual have a grievance and wish to escalate that grievance, a working group representative may (in this order):
+Should an individual have a grievance and wish to escalate that grievance^link:#cmnt1[[a]]^, a working group representative may (in this order):
 
-. Raise their grievance via the established channel (i.e., “ping” the channel; e.g., add a comment to a Bugzilla issue, or send an email to the working group list);
-. Connect with the working group’s program manager; 
-. Connect with the EMO.
+. Raise their grievance via the respective working group committee mailing list;^link:#cmnt2[[b]]^
+. Connect with the working group’s program manager;
+. Connect with the Working Groups Program Director via workinggroups@eclipse-foundation.org
 
+[[h.vj4mqhdw0tm]]
 == Assets
 
+[[h.m519xyo3txhl]]
 === Names and Logos
 
-A working group’s name is a brand. It is a significant asset around which a working group builds reputation and good will. As such, the name must be protected against potential infringement and unauthorized use. To protect this valuable asset, the Eclipse Foundation registers the name of all working groups as a trademark (referred to as a “wordmark”). Likewise, a working group may establish one or more logos (referred to as a “design mark”) which may, at the discretion of the working group and Eclipse Foundation, be registered as trademarks. 
+A working group’s name is a brand. It is a significant asset around which a working group builds reputation and good will. As such, the name must be protected against potential infringement and unauthorized use. To protect this valuable asset, the Eclipse Foundation registers the name of all working groups as a trademark (referred to as a “wordmark”). Likewise, a working group may establish one or more logos (referred to as a “design mark”) which may, at the discretion of the working group and Eclipse Foundation, be registered as trademarks.
 
-In order to have a strong trademark that can be protected it is important to try and create a name that is new and unique. A strong and unique trademark name will offer more protection and is less likely to encounter future oppositions. Trademarks are important and valuable assets for both businesses and consumers. A distinctive mark allows a business to build public goodwill and brand reputation in the goods or services it sells. Some of the strongest and most unique trademarks are created from invented words. Invented words are a good choice as trademarks because they are not descriptive and tend to be distinct. 
+In order to have a strong trademark that can be protected it is important to try and create a name that is new and unique. A strong and unique trademark name will offer more protection and is less likely to encounter future oppositions. Trademarks are important and valuable assets for both businesses and consumers. A distinctive mark allows a business to build public goodwill and brand reputation in the goods or services it sells. Some of the strongest and most unique trademarks are created from invented words. Invented words are a good choice as trademarks because they are not descriptive and tend to be distinct.
 
 When choosing a trademark:
 
@@ -252,32 +320,44 @@ When choosing a trademark:
 * Avoid using a place or origin for your trademark; and
 * Avoid using a name that may be confused with a registered or a pending trademark.
 
-Note that descriptive phrases cannot function as a trademark and therefore can never be registered or protected under common law. Generic trademarks are common terms used to name products or services, for example, a brand of shoes called "shoes". Generic trademarks describe a product, so no one can register them as trademarks. These marks do not qualify for any type of trademark or common law protection. 
+Note that descriptive phrases cannot function as a trademark and therefore can never be registered or protected under common law. Generic trademarks are common terms used to name products or services, for example, a brand of shoes called "shoes". Generic trademarks describe a product, so no one can register them as trademarks. These marks do not qualify for any type of trademark or common law protection.
 
-To initiate the review of a working group name or logo trademark, the working group sponsor must initiate a trademark with the Eclipse Trademarks Team via the mailto:trademarks@eclipse-foundation.org[Eclipse Foundation Trademarks Inbox]. If a logo will be utilized, please provide a clear copy of the image and attach it to the email. The logo copyright information must also be provided. 
+To initiate the review of a working group name or logo trademark, the working group sponsor must initiate a trademark with the Eclipse Trademarks Team via the Eclipse Foundation Trademarks Inbox. If a logo will be utilized, please provide a clear copy of the image and attach it to the email. The logo copyright information must also be provided.
 
-The review process for all working group names and logos ensures that the Eclipse Foundation tracks and maintains records of the dates of usage and jurisdiction of use for all its intellectual property. This information is crucial when the Eclipse Foundation pursues formal registration or needs to enforce Common Law trademark rights for any of the Eclipse Foundation intellectual property. 
+The review process for all working group names and logos ensures that the Eclipse Foundation tracks and maintains records of the dates of usage and jurisdiction of use for all its intellectual property. This information is crucial when the Eclipse Foundation pursues formal registration or needs to enforce Common Law trademark rights for any of the Eclipse Foundation intellectual property.
 
-Working group participants must take reasonable steps to correctly use (and in doing so, protect) the working group’s word and design marks. The Eclipse Foundation https://www.eclipse.org/legal/logo_guidelines.php[Trademark Usage Guidelines] provides information on appropriate use of working group trademarks. 
+Working group participants must take reasonable steps to correctly use (and in doing so, protect) the working group’s word and design marks. The Eclipse Foundation https://www.eclipse.org/legal/logo_guidelines.php#[Trademark Usage Guidelines] provides information on appropriate use of working group trademarks.
 
 Working group budgets must include an allocation for name and logo trademark registration.
 
+[[h.3x65lhxiypzr]]
+==== Design Marks
+
+Trademark agencies make the following requirements for registering a design mark:
+
+* Accepted file types: .tif, .jpg, .gif without motion, .png, .bmp. File size must not exceed 10.49MB.
+* Maximum image size: 8cm x 8cm. Maximum resolution: 300dpi.
+* If the applicant is claiming colour as a feature of the trademark (see below), the visual representation submitted must be in colour. In all other cases, the visual representation must be in black and white.
+* Files with a transparent background are not accepted
+
+Design marks must be submitted in black and white, with no grayscale.
+
+[[h.3babvq5rg4k9]]
 === Charter
 
-The initial charter is assembled during the Opportunity Phase and is finalized before a working group exits the Incubation phase. The charter *must* be based on the https://www.google.com/url?q=https://docs.google.com/document/d/1M7YKjR99xbZjZGW8Twv4Loc1EuOWw5eZoufy1owlgms/edit%23&sa=D&ust=1598292987033000&usg=AFQjCNEGMhNtWBmWYCnPKEhexKBdLlfikg[template]. Write access to the charter document is initially granted to designated representatives from the Lead Organization to collaborate on its creation, but then extended to all representatives as the working group moves through the Incubation and Operational phases.  
+The initial charter is assembled during the Opportunity Phase and is finalized before a working group exits the Incubation phase. The charter must be based on the https://www.google.com/url?q=https://docs.google.com/document/d/1M7YKjR99xbZjZGW8Twv4Loc1EuOWw5eZoufy1owlgms/edit%23&sa=D&source=editors&ust=1633387509128000&usg=AOvVaw2IvAWE_11KSYCOZGAkz8DA[template]. Write access to the charter document is initially granted to designated representatives from the Lead Organization to collaborate on its creation, but then extended to all representatives as the working group moves through the Incubation and Operational phases.
 
-Charters should be reviewed and updated as appropriate by the steering committee at least annually. 
+Charters should be reviewed and updated as appropriate by the steering committee at least annually.
 
 The charter must define:
 
 * Vision and Scope including the Technical Scope;
-* The _Governance and Precedence_ of the various documents that guide the governance of the working group;
-* The levels of _membership_ and Eclipse Foundation membership levels;
-* The various governing bodies (committees) that work on behalf of the working group and their common dispositions (good standing, voting, meeting management, etc.); 
-and
+* The Governance and Precedence of the various documents that guide the governance of the working group;
+* The levels of membership and Eclipse Foundation membership levels;
+* The various governing bodies (committees) that work on behalf of the working group and their common dispositions (voting, meeting management, terms and dates of elections, etc.); and
 * The fees for participating in the working group.
 
-A working group charter must define at least a _Steering Committee_ with responsibility to define and manage the strategy of the working group. A working group that is engaged in specification development must define a _Specification Committee_ with responsibility to implement the Eclipse Foundation Specification Process for the projects in the purview of the working group. A working group that is engaged in marketing activities may define a _Marketing Committee_ with responsibility to provide input into working group marketing prioritization.  
+A working group charter must define at least a Steering Committee with responsibility to define and manage the strategy of the working group. A working group that is engaged in specification development must define a Specification Committee with responsibility to implement the Eclipse Foundation Specification Process for the projects in the purview of the working group. A working group that is engaged in marketing activities may define a Marketing Committee with responsibility to provide input into working group marketing prioritization.
 
 The powers, duties, and composition of each committee must be defined. In general:
 
@@ -285,63 +365,38 @@ The powers, duties, and composition of each committee must be defined. In genera
 * At least two seats are allocated to Gold Members. Gold Member seats are allocated following the Eclipse "Single Transferable Vote", as defined in the Eclipse Bylaws.
 * At least one seat is allocated to Silver Members. Silver Member seats are allocated following the Eclipse "Single Transferable Vote", as defined in the Eclipse Bylaws.
 * At least one seat is allocated to Committer Members. Committer Member seats are allocated following the Eclipse "Single Transferable Vote", as defined in the Eclipse Bylaws.
-* In the case where a working group has strong alignment with one or more Top Level Projects, one or more seats may be allocated to representatives of the associated Project Management Committees (PMCs). 
+* In the case where a working group has strong alignment with one or more Top Level Projects, one or more seats may be allocated to representatives of the associated Project Management Committees (PMCs).
 * Guest members that have been invited to the Steering Committee as observers. Guest members have no voting rights.
 * The Executive Director may designate additional individuals as members
-* The Committee elects a chair who reports to the Steering Committee. This chair is elected among the members of the Committee. 
+* The Committee elects a chair who reports to the Steering Committee. This chair is elected among the members of the Committee.
 * The committee elects a secretary.
 
-==== Applicable Governance Documents
-
-The following documents define the governance of the Eclipse Foundation in general, and working groups, open source projects, and open source specifications in particular. Terms outlined in a working group charter must be consistent with these governance documents.
-
-* https://www.eclipse.org/org/documents/eclipse_foundation-bylaws.pdf[Eclipse Foundation Bylaws]
-* https://www.eclipse.org/org/documents/eclipse_membership_agreement.pdf[Eclipse Foundation Membership Agreement]
-* https://www.eclipse.org/org/documents/Eclipse_IP_Policy.pdf[Eclipse Foundation Intellectual Property Policy]
-* https://www.eclipse.org/org/documents/Eclipse_Antitrust_Policy.pdf[Eclipse Foundation Antitrust Policy]
-* https://www.eclipse.org/org/workinggroups/industry_wg_process.php[Eclipse Foundation Working Group Process]
-* https://www.eclipse.org/projects/dev_process/development_process.php[Eclipse Foundation Development Process]
-* {efspLink}
-* https://www.eclipse.org/legal/efsl.php[Eclipse Foundation Specification License]
-* https://www.eclipse.org/legal/tck.php[Eclipse Foundation Technology Compatibility Kit License]
-
+[[h.e222mvnxmdfl]]
 === Pitch Deck
 
-All working groups have the responsibility to ensure the value proposition for new members to join, and to make clear the criteria by which those new members may join. To facilitate this obligation, each working group typically creates a pitch deck.   
+All working groups have the responsibility to ensure the value proposition for new members to join, and to make clear the criteria by which those new members may join. To facilitate this obligation, each working group typically creates a pitch deck.
 
-The pitch deck is generally created after the working group has entered the _Opportunity_ phase. Write access to the pitch deck is initially granted to designated representatives from the Lead Organization to collaborate on its creation, but then extended to all representatives as the working group moves through the Incubation and _Operation_ phases.. 
+The pitch deck is generally created after the working group has entered the Opportunity phase. Write access to the pitch deck is initially granted to designated representatives from the Lead Organization to collaborate on its creation, but then extended to all representatives as the working group moves through the Incubation and Operation phases..
 
-A pitch deck may be based on an existing template or example, and may use custom branding. The pitch deck must be available for use by all members.   
+A pitch deck may be based on an existing template or example, and may use custom branding. The pitch deck must be available for use by all members.
 
-Many working groups, once operational, create a membership prospectus that takes the place of a pitch deck.  
+Many working groups, once operational, create a membership prospectus that takes the place of a pitch deck.
 
+[[h.mn7e6atfdol]]
 === Pipeline
 
-As working groups are being established, and through to the operational phase, it is in the interest of all parties to recruit members to the working group.  As such, a pipeline document, generally a spreadsheet, is a working document used to manage the pipeline of membership opportunities associated with the working group. 
+As working groups are being established, and through to the operational phase, it is in the interest of all parties to recruit members to the working group. As such, a pipeline document, generally a spreadsheet, is a working document used to manage the pipeline of membership opportunities associated with the working group.
 
-The pipeline document is shared with working group participants via the Shared Drive. 
+The pipeline document is shared with working group participants via the Shared Drive.
 
-Once operational, each steering committee may decide whether to maintain an ongoing pipeline document.  If so, the document must be available to all members of the steering committee. Separate from the pipeline document, potential new members often engage directly with the Eclipse Foundation to explore whether to join a particular working group; these discussions may not always be shared with the steering committee, and the decision whether to do so lies with the Foundation.  
+Once operational, each steering committee may decide whether to maintain an ongoing pipeline document. If so, the document must be available to all members of the steering committee. Separate from the pipeline document, potential new members often engage directly with the Eclipse Foundation to explore whether to join a particular working group; these discussions may not always be shared with the steering committee, and the decision whether to do so lies with the Foundation.
 
-=== Initiation Agreement
+[[h.yatmfoyrp1no]]
+=== Program Plan
 
-A Working Group Initiation Agreement is a bilateral agreement between the Eclipse Foundation and the Lead Organization(s). This agreement details the goals, scope, measures of success, responsibilities, and milestones to create a Working Group. At a minimum, it specifically describes work related to trademarks, logos, web properties, target member participation (i.e., pipeline), success criteria, etc. 
+Following charter ratification, and subsequently on an annual basis, steering committees must look ahead to establish a program plan and budget for the upcoming fiscal year and ensure a fee schedule is in place to support the objectives and goals of the working group. The Foundation’s fiscal year ends December 31.
 
-As a member or members of the Foundation come forward expressing an interest in forming a working group (the founding members), they will work together with the Foundation membership team to identify the details listed above, and to negotiate the terms of the agreement and the associated fees and payment schedule.  As stipulated in the Eclipse Foundation Working Group Process, it is the responsibility of the founding members to cover the costs of the Foundation through the initial phases of establishing a working group. 
-
-=== Participation Agreement
-
-A Working Group Participation Agreement (“Participation Agreement”) is a bilateral agreement between the Eclipse Foundation and each Participant in the Working Group that defines the responsibilities of each party in the Working Group. The Participation Agreement defines, among other terms, a commitment by each Participant to adhere to the Working Group Charter. 
-
-The Eclipse Foundation has the responsibility to define the Participation Agreement.  Specifically, the Foundation’s Working Group Sponsor must work with the Working Groups Manager to produce a Working Group Participation Agreement (WGPA), or more simply the _participation agreement_, based on a template. Arbitrary modification of the terms laid out in the participation agreement is not supported. The Working Groups Manager retains the source form for all participation agreements; producing a PDF of the agreement for general dissemination. All members are required to execute the participation agreement.  
-
-The participation agreement is initially shared via <<shared-drive, shared drive>>, but is published to the Eclipse Foundation’s Working Groups website when the working group enters the _Incubation_ phase.
-
-=== Program Plan and Annual Budget
-
-Following charter ratification, and subsequently on an annual basis, steering committees must look ahead to establish a program plan and budget for the upcoming fiscal year and ensure a fee schedule is in place to support the objectives and goals of the working group.  The Foundation’s fiscal year ends December 31.  
-
-The general approach is to create a program plan to identify priorities to be accomplished during the next year.  The program plan must demonstrate a commitment to the vision and scope defined in the charter. Specifically, it should establish goals for the year along with specific actions planned to achieve those goals. Note that the marketing committee is expected to create a <<marketing-plan, marketing plan>> that aligns and complements the working group program plan. 
+The general approach is to create a program plan which defines the strategy for implementing the vision and scope of the working group.  It is used to identify priorities to be accomplished during the next year. The program plan must demonstrate a commitment to the vision and scope defined in the charter. Specifically, it should establish goals for the year along with specific actions planned to achieve those goals. Note that the marketing committee is expected to create a https://www.eclipse.org/org/workinggroups/operations.php#marketing-plan[marketing plan] that aligns and complements the working group program plan.
 
 The program plan must identify whether dedicated resources, including full time Foundation staff, are required in order to fulfill the plan. Typically, full time, working group dedicated staff includes:
 
@@ -349,13 +404,36 @@ The program plan must identify whether dedicated resources, including full time 
 * Full time Program Manager; and
 * Full time Developer Advocate.
 
+All Working Group activities must be:
+
+* Consistent with the Eclipse Foundation values such as openness, transparency, meritocracy, and vendor neutrality;
+* Fully compliant with the Eclipse Foundation policies such as privacy, antitrust, and intellectual property; and
+* In accordance with the Eclipse Foundation accounting policies such as spending controls and revenue recognition.
+
+The Eclipse Foundation is responsible for:
+
+* Managing all contracting, disbursements, and vendor relationships;
+* Delivering or managing the delivery of all work products such as website content, marketing collateral, legal documents, etc.;
+* Hiring and managing any headcount dedicated to the working group, either directly or indirectly; and
+* Providing financial reports showing execution versus budget. +
+
+The formal governance obligations lie with the Eclipse Board of Directors, the Eclipse Foundation’s Executive Director, and Eclipse Foundation staff as defined within the Bylaws.
+
+Each working group’s budget rolls up into the Eclipse Foundation’s overall budget, which is approved on an annual basis by the Board of Directors.
+
+The Eclipse Foundation bears all fiduciary and operational responsibilities for the Working Group.
+
+Working Group Program Plans and Budgets must be approved by the Executive Director.  
+
+[[h.oktxwl53xwqh]]
 === Infrastructure Plan
 
 All working groups must create and maintain an infrastructure plan that describes the infrastructure needs of the working group in concise terms. The infrastructure plan must be a living document that is updated with information about the services as they are allocated. In effect, the infrastructure plan becomes a “one stop” source of information about the resources allocated to and managed by and on behalf of the working group.
 
+[[h.bjn7labywny2]]
 === Marketing Plan
 
-A marketing plan describes the marketing programs and activities to support the goals and objectives of the working group as articulated by the Program Plan. The marketing plan captures the marketing and communications strategies, tactics, and resources required to grow the awareness of and participation in the working group, including driving the discoverability and commercial adoption of the Eclipse projects operating under the purview of the working group. Additionally, the marketing plan will typically outline the positioning, messaging, value proposition, and content required to drive audience, membership, and community growth. 
+A marketing plan describes the marketing programs and activities to support the goals and objectives of the working group as articulated by the Program Plan. The marketing plan captures the marketing and communications strategies, tactics, and resources required to grow the awareness of and participation in the working group, including driving the discoverability and commercial adoption of the Eclipse projects operating under the purview of the working group. Additionally, the marketing plan will typically outline the positioning, messaging, value proposition, and content required to drive audience, membership, and community growth.
 
 Sample contents for the marketing plan include:
 
@@ -366,119 +444,139 @@ Sample contents for the marketing plan include:
 * Marketing Tactics: How we will deliver our messages, e.g., content (white papers, case studies, videos, other collateral assets), advertising, public relations and analyst relations, community events, etc.
 * Action Plan: Actions we will take in the plan period
 * Resources: Resources required to deliver on the plan, e.g., budget, effort, member contributions
-* Metrics: How we will measure progress and achievement of goals
-“No plan” is a valid plan, in that the working group may elect not to develop a marketing plan. 
+* Metrics: How we will measure progress and achievement of goals “No plan” is a valid plan, in that the working group may elect not to develop a marketing plan.
 
+[[h.2s7phglhsf9t]]
 === Annual Budget
 
-A budget is then prepared to support the program plan.   The budget’s revenue projections are based on the anticipated revenues for the following year, typically based on current membership and associated fees. The budget should identify targeted spending to match the program plan.  The budget should account for covering the costs of support by the Eclipse Foundation, including both staff directly engaged with the working group such as the Program Manager, Marketing Manager, or Developer Advocate based on a loaded labor rate provided by the Foundation, as well as the ancillary support of other Foundation staff in areas such as infrastructure and web development, IP and legal support, etc. In addition, the budget should identify expected spend on infrastructure requirements, marketing activities such as content development, developer outreach, event sponsorship, etc.  The Foundation also imposes a General and Administrative (G&A) fee for all working group spending; the rate for the G&A is established each year by the Foundation.  
+A budget is then prepared by the Eclipse Foundation to support the program plan. The budget’s revenue projections are based on the anticipated revenues for the following year, typically based on current membership and associated fees. The budget should identify targeted spending to match the program plan. The budget should account for covering the costs of support by the Eclipse Foundation, including both staff directly engaged with the working group such as the Program Manager, Marketing Manager, or Developer Advocate based on a loaded labor rate provided by the Foundation, as well as the ancillary support of other Foundation staff in areas such as infrastructure and web development, IP and legal support, etc. In addition, the budget should identify expected spend on infrastructure requirements, marketing activities such as content development, developer outreach, event sponsorship, etc. The Foundation also imposes a General and Administrative (G&A) fee for all working group spending; the rate for the G&A is established each year by the Foundation.
 
-Working group fee structures are generally in place by October for the next fiscal year which commences in January. The charter and participation agreement must be updated to reflect any changes in the fee structure. 
+Working group fee structures are generally in place by October for the next fiscal year which commences in January. The charter and participation agreement must be updated to reflect any changes in the fee structure. +
+ +
+Authority and responsibility for establishing and managing Working Group budgets lies with the Eclipse Foundation Executive Director (“Executive Director”) as defined in the Bylaws. Each Working Group’s budget rolls up into the Foundation’s overall budget, which is approved on an annual basis by the Eclipse Foundation’s Board of Directors (“Board of Directors”).
 
+[[h.sio2wbb3z12f]]
 == Resources and Services
 
-All working groups must be assigned a short name. As with Eclipse open source projects, the short name is used in technical namespaces (e.g., mailing lists, Slack workspace). The short name is all lowercase with no whitespace, containing only alphanumeric and dash characters. e.g., “ECD Tools” Working group has the short name “ecd-tools”; the mailing list is *ecd-tools-wg@eclipse.org*, and the Slack workspace is *ecd-tools-wg.slack.com*, etc.
+All working groups must be assigned a short name. As with Eclipse open source projects, the short name is used in technical namespaces (e.g., mailing lists, Slack workspace). The short name is all lowercase with no whitespace, containing only alphanumeric and dash characters. e.g., “ECD Tools” Working group has the short name “ecd-tools”; the mailing list is ecd-tools-wg@eclipse.org, and the Slack workspace is ecd-tools-wg.slack.com, etc.
 
+[[h.8z9d857o0xdy]]
 === Typical Infrastructure and Services
 
-The following services may be made available to a working group. Note that real costs are associated with many of these services, and that those costs must be factored into the working group budget.
+The following services may be made available to a working group. Note that real costs are associated with many of these services, and that those costs must be factored into the working group budget.  Some working groups may have extraordinary infrastructure requirements that must be addressed as part of the working group infrastructure plan.
 
+[[h.oc7m7kvejrrs]]
 ==== Internal Folder
 
-Allocated and administered by the Working Group Sponsor. 
+Allocated and administered by the Working Group Sponsor.
 
-The Internal Folder is a folder/directory under the “Working Groups” Google Drive. Access to the Internal Folder, and all of the resources contained within, is limited to Eclipse Foundation Staff. 
+The Internal Folder is a folder/directory under the “Working Groups” Google Drive. Access to the Internal Folder, and all of the resources contained within, is limited to Eclipse Foundation Staff.
 
 Due to the nature of permission handling in Google Drive, access is controlled at the “Working Group” Shared Drive level, so all Eclipse Foundation staff engaged in Working Group activity have, by default, homogeneous access to content in these directories. Additional access may be granted at the discretion of the sponsor.
 
+[[h.myxq80tymox]]
 ==== Shared Drive
 
-Allocated and administered by the Working Group Sponsor and Program Manager. 
+Allocated and administered by the Working Group Sponsor and Program Manager.
 
-The Shared Drive is a Shared Drive in the Eclipse Foundation’s Google Drive. All participants of the working group’s committees (and their designated alternates) have read/write access. Access to the Shared Drive is limited to the working group participants and Eclipse Foundation staff. 
+The Shared Drive is a Shared Drive in the Eclipse Foundation’s Google Drive. All participants of the working group’s committees (and their designated alternates) have read/write access. Access to the Shared Drive is limited to the working group participants and Eclipse Foundation staff.
 
-The Program Manager and Sponsor (or their designate) manage access to the Shared Drive.  
+The Program Manager and Sponsor (or their designate) manage access to the Shared Drive.
 
 The working group’s charter, infrastructure plan, budget, and all marketing materials are stored in the Shared Drive.
 
+[[h.eivhuob6vwuw]]
 ==== Mailing Lists
 
-Allocated and administered by the Eclipse Webmaster, Program Manager, and/or the Working Groups Manager. 
+Allocated and administered by the Eclipse Webmaster, Program Manager, and/or the Working Group Programs Director.
 
-The Eclipse Webmaster will create one or more mailing lists, generally one “-wg” list for the working group as a whole and one for each committee, as requested. 
+The Eclipse Webmaster will create one or more mailing lists, generally one “-wg” list for the working group as a whole and one for each committee, as requested.
 
 Mailing lists follow these patterns:
 
-* <shortname>-wg@eclipse.org 
-* <shortname>-wg-steering-committee@eclipse.org
+* <shortname>-wg@eclipse.org (public working group mailing list)
+* <shortname>-wg-steering-committee@eclipse.org 
 * <shortname>-wg-marketing-committee@eclipse.org
 * <shortname>-wg-specification-committee@eclipse.org
 
-The first list is created as an open list that anybody can join. Participation in the committee lists is initially restricted to committee members, designated alternative representatives, and Eclipse Foundation staff; and do not have archives. Participation restrictions for these lists may be changed at the discretion of the committees. The general working group list is open with publicly accessible archives. 
+The public working group mailing list list is created as an open list with an archive that anybody can join.
 
-Other mailing lists may be created by request of the working group’s steering committee; these lists may be public with archive or private without archive. Other configurations are not supported. Additional mailing lists may include a community list, an adopters list, a specifications’ discussion list, etc.   
+Participation in the governing body committee lists is initially restricted to committee members, designated alternative representatives, and Eclipse Foundation staff. Committee lists do not have archives. This enables governing bodies to have open discussions prior to taking decisions.
 
-In order to subscribe to mailing lists, a user must first create an https://www.eclipse.org/projects/handbook/#contributing-account[Eclipse Foundation account].  In cases where the mailing list is restricted to committee members, requests to add or remove mailing list participants must be directed to the Program Manager or Sponsor. Email addresses without an eclipse.org account should not be subscribed to a mailing list.
+Participation restrictions for these lists may be changed at the discretion of the committees. The general working group list is open with publicly accessible archives.  
 
+Other mailing lists may be created by request of the working group’s steering committee; these lists may be public with archive or private without archive. Other configurations are not supported. Additional mailing lists may include a community list, an adopters list, a specifications’ discussion list, etc.
+
+In order to subscribe to mailing lists, a user must first create an https://www.eclipse.org/projects/handbook/#contributing-account[Eclipse Foundation account]. In cases where the mailing list is restricted to committee members, requests to add or remove mailing list participants must be directed to the Program Manager or Sponsor. Email addresses without an eclipse.org account should not be subscribed to a mailing list.
+
+[[h.nj6ndr2wg5bn]]
 ==== GitHub Organization
 
-If required, a GitHub organization may be allocated and administered by the steering committee (or their designate). 
+If required, a GitHub organization may be allocated and administered by the steering committee (or their designate).
 
-A GitHub organization may be created for a working group at the beginning of the _Incubation Phase_ or at any time thereafter. The organization must be used only for the development of working group specific resources (e.g. white papers or test beds); and must not include any project-specific content (e.g. project documentation).  
+A GitHub organization may be created for a working group at the beginning of the Incubation Phase or at any time thereafter. The organization must be used only for the development of working group specific resources (e.g. white papers or test beds); and must not include any project-specific content (e.g. project documentation).
 
-The Eclipse Webmaster, Working Group Sponsor, and Program Manager (when applicable) must all have administrative (owner) access. The organization must respect the trademark usage guidelines of both the Eclipse Foundation and the working group (including pointers, when available, to the official Working Group website).  
+The Eclipse Webmaster, Working Group Sponsor, and Program Manager (when applicable) must all have administrative (owner) access. The organization must respect the trademark usage guidelines of both the Eclipse Foundation and the working group (including pointers, when available, to the official Working Group website).
 
-The steering committee must document a policy for managing the organization in a vendor neutral manner, and must appoint administrators tasked with implementing that policy. Specifically, member company employees must manage the day-to-day operations of this organization. Only employees of working group members may be granted privileged access to working group resources. 
+The steering committee must document a policy for managing the organization in a vendor neutral manner, and must appoint administrators tasked with implementing that policy. Specifically, member company employees must manage the day-to-day operations of this organization. Only employees of working group members may be granted privileged access to working group resources.
 
 If a need for technical support is anticipated, the working groups must negotiate a service agreement with the Eclipse Webmaster.
 
+[[h.84prhrrl4f5w]]
 ==== Website
 
-Allocated and administered by the Eclipse Webmaster. 
+Allocated and administered by the Eclipse Webmaster.
 
-Hugo-based website, owned and managed by the Eclipse Foundation, and hosted on GitHub (either in the https://github.com/EclipseFdn[EclipseFdn] organization or in a working group specific GitHub organization). Design and creation of the website starts when the proposal enters the Incubation Phase; and deployed in advance of the Working Group entering the Operational Phase. The steering committee must document a policy for determining who has privileged access to this resource.
+Hugo-based website, owned and managed by the Eclipse Foundation, and hosted on GitHub (either in the https://github.com/EclipseFdn#[EclipseFdn] organization or in a working group specific GitHub organization). Design and creation of the website starts when the proposal enters the Incubation Phase; and deployed in advance of the Working Group entering the Operational Phase. The steering committee must document a policy for determining who has privileged access to this resource.
 
+[[h.3a2rk34wivoc]]
 ==== Zoom
 
-Allocated and administered by the Eclipse Webmaster. 
+Allocated and administered by the Eclipse Webmaster.
 
-A Zoom channel may be allocated for working group committee calls. We generally allocate a single channel to be shared by all working group committees. 
+A Zoom channel may be allocated for working group committee calls. We generally allocate a single channel to be shared by all working group committees.
 
-Note that Zoom calls may be recorded, but that reasonable effort must be undertaken in advance to ensure that all attendees are aware of the intention to record and that there is no objection. 
+Note that Zoom calls may be recorded, but that reasonable effort must be undertaken in advance to ensure that all attendees are aware of the intention to record and that there is no objection.
 
-Note that using Zoom requires that users agree to the Zoom terms of use; some individuals and organizations may not be able (or may not desire to) agree to these terms. That is, participation via Zoom may be a barrier for entry. Other accommodations are possible, provided that all members are granted access to such calls. 
+Note that using Zoom requires that users agree to the Zoom terms of use; some individuals and organizations may not be able (or may not desire to) agree to these terms. That is, participation via Zoom may be a barrier for entry. Other accommodations are possible, provided that all members are granted access to such calls.
 
+[[h.gr93zmjq8x9]]
 ==== Google Calendar
 
 Allocated and administered by the Working Group Sponsor and Program Manager.
 
+[[h.g3veilfsev87]]
 ==== Slack
 
-Allocated and administered by the Working Group Sponsor and Program Manager. 
+Allocated and administered by the Working Group Sponsor and Program Manager.
 
-The workspace name should take the form “<shortname>-wg.slack.com”. 
+The workspace name should take the form “<shortname>-wg.slack.com”.
 
-Note that using Slack requires that users agree to the Slack terms of use; some individuals and organizations may not be able (or may not desire to) agree to these terms. That is, participation via Slack may be a barrier for entry. 
+Note that using Slack requires that users agree to the Slack terms of use; some individuals and organizations may not be able (or may not desire to) agree to these terms. That is, participation via Slack may be a barrier for entry.
 
 Slack should only ever be used for ephemeral discussions.
 
+[[h.49ht6bb5z3m5]]
 === Other Resources and Services
 
-The working group can leverage other services. But access to those services needs to be open equally to all working group members. So, a working group could, for example, allocate their own Trello workspace, so long as all working group participants can access it and the working group defines clear rules for getting increased privileges on the resource. 
+The working group can leverage other services. But access to those services needs to be open equally to all working group members. So, a working group could, for example, allocate their own Trello workspace, so long as all working group participants can access it and the working group defines clear rules for getting increased privileges on the resource.
 
-Note that the Eclipse team cannot generally help with administrative tasks related to nonstandard resources and services. The working group must decide (and document) a means of managing access, and the keys (i.e., administrative access) must be shared. Webmaster must be granted administrative rights to any shared resource.   
+Note that the Eclipse team cannot generally help with administrative tasks related to nonstandard resources and services. The working group must decide (and document) a means of managing access, and the keys (i.e., administrative access) must be shared. Webmaster must be granted administrative rights to any shared resource.
 
-Bear in mind that many services require that users agree to terms of use that some may not or can not agree to. That is, the terms of use may be a barrier for entry that excludes some participants  (FWIW, we have some community members who cannot agree to the terms of use to use a Slack workspace). 
+Bear in mind that many services require that users agree to terms of use that some may not or can not agree to. That is, the terms of use may be a barrier for entry that excludes some participants (FWIW, we have some community members who cannot agree to the terms of use to use a Slack workspace).
 
+[[h.80ira7m2c69x]]
 === Infrastructure Audits
 
-Working groups must engage in an annual audit of infrastructure. The audit includes a review of, for example, who has access to what resources. 
+Working groups must engage in an annual audit of infrastructure. The audit includes a review of, for example, who has access to what resources.
 
+[[h.po41rrb644le]]
 == Lifecycle
 
+[[h.ifj98l2bt1pt]]
 === Opportunity Phase
 
-A working group exits in the _Opportunity_ phase when:
+A working group exits in the Opportunity phase when:
 
 * Working Group Sponsor identified;
 * Lead Organization identified;
@@ -487,55 +585,66 @@ A working group exits in the _Opportunity_ phase when:
 * Participant Pipeline established; and
 * Executive Director approval.
 
+[[h.bdlay1n53vra]]
 ==== Check list
 
 A working group is ready to move into the Proposal Phase when the following conditions have been met.
 
-* [ ] Working Group name selected
-* [ ] Working Group Sponsor identified
-* [ ] Lead Organization identified
-* [ ] Initiation Agreement executed by Lead Organization
-* [ ] Internal Folder in the “Working Groups” Google Drive created
-* [ ] Shared Drive created
-** [ ] Lead organization representatives granted access
-* [ ] Shared Documents created
-** [ ] Participation Agreement created
-** [ ] Pipeline document (spreadsheet) created
-** [ ] Charter created
-** [ ] Pitch Deck created
-* [ ] Pipeline includes a minimum of five companies
-* [ ] Executive Director approval
+*  Working Group name selected
+*  Working Group Sponsor identified
+*  Lead Organization identified
+*  Initiation Agreement executed by Lead Organization
+*  Internal Folder in the “Working Groups” Google Drive created
+*  Shared Drive created
 
+*  Lead organization representatives granted access
+
+*  Shared Documents created
+
+*  Participation Agreement created
+*  Pipeline document (spreadsheet) created
+*  Charter created
+*  Pitch Deck created
+
+*  Pipeline includes a minimum of five companies
+*  Executive Director approval
+
+[[h.knzb1a2ggtez]]
 === Proposal Phase
 
-A working group exits in the _Proposal_ phase when:
+A working group exits in the Proposal phase when:
 
 * Recruiting Materials created;
 * Draft Marketing Plan completed;
 * Services and required infrastructure identified;
 * Initial Working Group Charter published;
 * Minimum of three Participants committed; and
-* Executive Director approval.
-A working group that has made no progress towards moving into the incubation phase for more than three months will be terminated.
+* Executive Director approval. A working group that has made no progress towards moving into the incubation phase for more than three months will be terminated.
 
+[[h.qlk21cyqso8r]]
 ==== Check list
 
 A working group is ready to move into the Incubation Phase when the following conditions have been met.
 
-* [ ] Tile added to the working groups landing page
-** [ ] Charter posted to the website
-* [ ] Interim committee chairs identified and appointed by EMO(ED)
-* [ ] Interim committee secretaries identified
-* [ ] Working group announced to the Foundation’s General Assembly (formerly the Foundation’s Membership-At-Large)
-* [ ] Primary “Working Group” (<shortname>-wg@eclipse.org) Mailing list created
-* [ ] Infrastructure Plan (document) created
-* [ ] Draft marketing plan created
-* [ ] Recruitment materials created
-* [ ] Name is selected
-** [ ] Approved as a common law trademark by the Eclipse Trademarks Team
-* [ ] Executed participation agreements from at least three different companies
-* [ ] Executive Director approval
+*  Tile added to the working groups landing page
 
+*  Charter posted to the website
+
+* Interim committee chairs identified and appointed by Eclipse Foundation Executive Director
+*  Interim committee secretaries identified
+*  Working group announced to the Foundation’s General Assembly (formerly the Foundation’s Membership-At-Large)
+*  Primary “Working Group” (<shortname>-wg@eclipse.org) Mailing list created
+*  Infrastructure Plan (document) created
+*  Draft marketing plan created
+*  Recruitment materials created
+*  Name is selected
+
+*  Approved as a common law trademark by the Eclipse Trademarks Team
+
+*  Executed participation agreements from at least three different companies
+*  Executive Director approval
+
+[[h.thjf78yq7iqs]]
 === Incubation Phase
 
 * Communication infrastructure established;
@@ -549,36 +658,45 @@ A working group is ready to move into the Incubation Phase when the following co
 
 A working group that has made no progress towards moving to the operation phase for more than three months will be terminated.
 
+[[h.9r4tjyuohgof]]
 ==== Check list
 
 A working group is ready to move into the Operational Phase when the following conditions have been met.
 
-* [ ] Committee mailing lists created
-* [ ] Zoom channel created
-* [ ] Slack workspace created (<short-name>-wg.slack.com)
-** [ ] Sponsor (or their designate) added as administrator
-** [ ] Eclipse Webmaster added as administrator
-** [ ] Lead organization representative added as administrator
-* [ ] Charter complete; updated on website
-* [ ] Name trademark (wordmark) registration initiated
-* [ ] Logo finalized
-** [ ] Approved as a common law trademark by the Eclipse Trademarks Team
-** [ ] Added to working groups landing page title
-** [ ] (optional) Trademark registration initiated
-* [ ] Recruiting materials complete
-* [ ] Budget defined and approved by the steering committee
-* [ ] Marketing plan complete
-* [ ] Infrastructure plan signed off by steering committee and Eclipse Foundation
-* [ ] Committees established
-** [ ] Initial representatives appointed
-** [ ] Meetings scheduled
-* [ ] Executed participation agreements from at least five different companies
-* [ ] Executive Director approval
+*  Committee mailing lists created
+*  Zoom channel created
+*  Slack workspace created (<short-name>-wg.slack.com)
 
+*  Sponsor (or their designate) added as administrator
+*  Eclipse Webmaster added as administrator
+*  Lead organization representative added as administrator
+
+*  Charter complete; updated on website
+*  Name trademark (wordmark) registration initiated
+*  Logo finalized
+
+*  Approved as a common law trademark by the Eclipse Trademarks Team
+*  Added to working groups landing page title
+*  (optional) Trademark registration initiated
+
+*  Recruiting materials complete
+*  Budget defined and approved by the steering committee
+*  Marketing plan complete
+*  Infrastructure plan signed off by steering committee and Eclipse Foundation
+*  Committees established
+
+*  Initial representatives appointed
+*  Meetings scheduled
+
+*  Executed participation agreements from at least five different companies
+*  Executive Director approval
+
+[[h.gn4tpsgcu97x]]
 === Operational Phase
 
 A working group that is in the Operational Phase is, well, operational. During this phase, the working group operations
 
+[[h.fpidgbajv9qx]]
 ==== Check List
 
 * Website Launch/Press Release
@@ -588,61 +706,43 @@ A working group that is in the Operational Phase is, well, operational. During t
 * Promotion/Marketing
 * Specification Process (when applicable)
 
+[[h.3s5hoosq9fdf]]
 === Termination/Archived Phase
 
-A working group that is no longer viable is terminated and archived. 
+A working group that is no longer viable is terminated and archived.
 
-The Eclipse Foundation Working Group Process does not formally define an _Archived Phase_, only that working groups may be terminated (“archived” is less a phase than it is an acknowledgement that the working group is not currently active). At least in theory, a working group may be unarchived back into one of the formal phases. 
+The Eclipse Foundation Working Group Process does not formally define an Archived Phase, only that working groups may be terminated (“archived” is less a phase than it is an acknowledgement that the working group is not currently active). At least in theory, a working group may be unarchived back into one of the formal phases.
 
-Some assets will remain on the website indefinitely. Charters, for example, will persist, but be labeled as “Archived”. Working group participation agreements, however, are completely removed from all public sites. 
+Some assets will remain on the website indefinitely. Charters, for example, will persist, but be labeled as “Archived”. Working group participation agreements, however, are completely removed from all public sites.
 
 What do we do with working group assets when a working group terminates?
 
-* [ ] Public Termination Notice sent to working group communication channel
-* [ ] Shared Drive and Internal Folder archived
-** [ ] Contents from public Shared Drive moved into “Public” folder in Internal Folder
-** [ ] (now empty) Shared Drive deleted
-** [ ] Internal Folder moved to “Archived”
-* [ ] Charter marked as “archived” on website
-* [ ] Related Working Group Participation Agreements removed and archived
-* [ ] Tile on the https://www.eclipse.org/org/workinggroups/explore.php[“Explore” page] removed
-* [ ] Bullet in the “Terminated Working Groups” added
-* [ ] Website deactivated and archived, domains/URLs redirected to “Explore” page
-* [ ] Zoom workspace retired
-* [ ] Slack workspace deleted
-* [ ] Participation Agreements expired in Foundation database
-* [ ] Formal communication sent to affected members confirming termination and invalidation of related agreement.
+*  Public Termination Notice sent to working group communication channel
+*  Shared Drive and Internal Folder archived
 
+*  Contents from public Shared Drive moved into “Public” folder in Internal Folder
+*  (now empty) Shared Drive deleted
+*  Internal Folder moved to “Archived”
+
+*  Charter marked as “archived” on website
+*  Related Working Group Participation Agreements removed and archived
+*  Tile on the https://www.eclipse.org/org/workinggroups/explore.php#[“Explore” page] removed
+*  Bullet in the “Terminated Working Groups” added
+*  Website deactivated and archived, domains/URLs redirected to “Explore” page
+*  Zoom workspace retired
+*  Slack workspace deleted
+*  Participation Agreements expired in Foundation database
+*  Formal communication sent to affected members confirming termination and invalidation of related agreement.
+
+[[h.jginv69heb1v]]
 == FAQ
 
-[qanda]
-
-Does every working group have a program manager? ::
-
-No. The program manager role must be funded, and so only those working groups that include funding for a program manager in their budget have one. 
-
-Does a working group need to be in the operational phase to engage in specification work? ::
-
-No. A working group may initiate ballots for many specification project lifecycle events while in the incubation phase. A working group’s specification committee may, for example, engage in a ballot to create a new specification project (or convert an existing Eclipse open source project into a specification project while still in incubation. 
-+
-A working group must, however, be in the operational phase before its specification committee may approve and ratify a Final Specification for release. 
-
-Can a working group in the incubation phase release a specification? ::
-
-No. Specification projects operating under the purview of a working group in the incubation phase may engage in all lifecycle events except the ratification and release of a Final Specification. 
-
-Can a working group combine committees? ::
-
+. Does every working group have a program manager? +
+No. The program manager role must be funded, and so only those working groups that include funding for a program manager in their budget have one.
+. Does a working group need to be in the operational phase to engage in specification work? +
+No. A working group may initiate ballots for many specification project lifecycle events while in the incubation phase. A working group’s specification committee may, for example, engage in a ballot to create a new specification project (or convert an existing Eclipse open source project into a specification project while still in incubation. +
+A working group must, however, be in the operational phase before its specification committee may approve and ratify a Final Specification for release.
+. Can a working group in the incubation phase release a specification? +
+No. Specification projects operating under the purview of a working group in the incubation phase may engage in all lifecycle events except the ratification and release of a Final Specification.
+. Can a working group combine committees? +
 Yes. A working group may combine committees. It may be desirable to, for example, to assign specification committee responsibilities to a working group’s steering committee. In this case, the specification committee would play the role of the specification committee in all matters related to the specification process (the steering committee would, in effect, be the specification committee). The nature and make up of committees is defined in a working group’s charter.
-
-What is the relationship between a working group and a specification project? ::
-
-The relationship between a working group and a specification project is very formal. It is one-to-one. It's not strictly true to say that a specification project is "owned" by a working group, but rather that a specification project works under the supervision of a single working group. Specifically, the working group's specification committee has a decision making responsibility (via ballot) regarding whether or not a specification project's releases may produce a final specification. For more information, see the {efspUrl}[Eclipse Foundation Specification Process].
-
-What is the relationship between a working group and an Eclipse software (i.e., non-specification) project? ::
-
-A working group may "express interest" in any number of Eclipse projects. The relationship is many-to-many; there exists, potentially, many working groups that may express interest in any particular project. Strictly speaking, a working group does not "own" any Eclipse projects in that the working group doesn't have any direct influence over any activity that the project engages in. A working group influences projects by having its participant members' employees contribute to the projects in the usual way.
-+
-What "express interest" means is the responsibility of the working group to define. Many working groups have web pages that list the projects that they are interested in, for example. 
-+
-The developers who have committer status on any of projects that a working group expresses interest typically form the constituency for committer representatives on the working group's committees.

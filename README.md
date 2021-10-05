@@ -28,6 +28,14 @@ These documents are published on the [Eclipse Foundation's Working Groups websit
 This project has a Maven-based build that uses AsciidoctorJ to compile sources into HTML.
 
     > mvn clean generate-resources
+    
+## Converting
+
+For ease of editing, we use Google Docs to edit the content. When it's time to publish, we download the document as webpage and use this command to turn it into AsciiDoc (and yes, it feels a bit dirty):
+
+````
+$ tidy  -gdoc --hide-comments yes EclipseFoundationWorkingGroupOperationsGuide2.html | sed -E -e 's/https:\/\/www\.google\.com\/url\?q=([^%[&]+)(%23([^&]+))?\&[^["]+/\1#\3/g' | pandoc --atx-headers --wrap=none -f html -t asciidoc > operations.adoc
+````
 
 ## Other
 
