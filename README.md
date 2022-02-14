@@ -31,11 +31,30 @@ This project has a Maven-based build that uses AsciidoctorJ to compile sources i
     
 ## Converting
 
-For ease of editing, we use Google Docs to edit the content. When it's time to publish, we download the document as webpage and use this command to turn it into AsciiDoc (and yes, it feels a bit dirty):
+For ease of editing, we use Google Docs to edit the content. Google Docs, however, does not have any built-in technology for producing reasonable we content, so the output needs to be processed a bit. 
+
+When it's time to publish, we download the document as webpage and use this command to turn it into AsciiDoc (and yes, it feels a bit dirty):
+
+1. Download the Google Doc as a webpage;
+2. Convert the HTML into AsciiDoc (the "CLI bit" below);
+3. Use an editor to remove the "comments" content at the bottom of the document
+4. Use an editor to add a "toc::[]" element under the "version" line.
+
+We'll continue to explore means of improving the automation of the conversion. 
+
+The CLI bit:
 
 ````
-$ tidy  -gdoc --hide-comments yes EclipseFoundationWorkingGroupOperationsGuide2.html | sed -E -e 's/https:\/\/www\.google\.com\/url\?q=([^%[&]+)(%23([^&]+))?\&[^["]+/\1#\3/g' | pandoc --atx-headers --wrap=none -f html -t asciidoc > operations.adoc
+$ tidy  -gdoc input.html \
+| sed -E -e 's/https:\/\/www\.google\.com\/url\?q=([^%[&]+)(%23([^&]+))?\&[^["]+/\1#\3/g' \
+| pandoc --atx-headers --wrap=none -f html -t asciidoc \
+| grep -v "\[\[h\..*\]\]" > output.adoc
 ````
+
+1. Clean up the HTML; remove the Gdoc cruft;
+2. Strip out the Google "safe" link cruft;
+3. Convert from HTML to AsciiDoc; and
+4. Remove the Gdoc-generated anchors.
 
 ## Other
 
