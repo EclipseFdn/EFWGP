@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2021,2022 The Eclipse Foundation
+//
+// SPDX-License-Identifier: EPL-2.0
+
 = Eclipse Foundation Working Group Operations Guide
 
 Version 2.1  
