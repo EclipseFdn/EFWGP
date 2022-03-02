@@ -119,6 +119,28 @@
 							</attributes>
 						</configuration>
 					</execution>
+					<execution>
+						<id>generate-pdf-doc</id>
+						<phase>generate-resources</phase>
+						<goals>
+							<goal>process-asciidoc</goal>
+						</goals>
+						<configuration>
+							<backend>pdf</backend>
+							<sourceDocumentName>process.adoc</sourceDocumentName>
+							<sourceHighlighter>rouge</sourceHighlighter>
+							<attributes>
+								<doctype>book</doctype>
+								<icons>font</icons>
+								<imagesoutdir>.</imagesoutdir>
+								<imagesdir>.</imagesdir>
+								<pagenums />
+								<toc />
+								<idprefix />
+								<idseparator>-</idseparator>
+							</attributes>
+						</configuration>
+					</execution>
 				</executions>
 			</plugin>
 		</plugins>
